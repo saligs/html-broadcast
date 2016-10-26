@@ -53,11 +53,58 @@
 								<div class="panel-body">
 									<h4 class="border-bottom padding-bottom-20">Your Broadcast</h4>
 									<div class="table-reponsive">
-										<table>
+										<table class="table borderless">
 											<tr>
-												<td></td>
-												<td></td>
-												<td></td>
+												<td>
+													<b class="color-blue-dark">Undangan Workshop Januari 2016</b><br>
+													Created : 30 Desember 2016
+												</td>
+												<td>
+													<b class="color-blue-dark">40 Subscribers</b><br>
+													Read Your Broadcast
+												</td>
+												<td>
+													<a href="#" class="btn btn-grey">Follow Up</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<b class="color-blue-dark">Undangan Workshop Januari 2016</b><br>
+													Created : 30 Desember 2016
+												</td>
+												<td>
+													<b class="color-blue-dark">40 Subscribers</b><br>
+													Read Your Broadcast
+												</td>
+												<td>
+													<a href="#" class="btn btn-grey">Follow Up</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<b class="color-blue-dark">Undangan Workshop Januari 2016</b><br>
+													Created : 30 Desember 2016
+												</td>
+												<td>
+													<b class="color-blue-dark">40 Subscribers</b><br>
+													Read Your Broadcast
+												</td>
+												<td>
+													<a href="#" class="btn btn-grey">Follow Up</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<b class="color-blue-dark">Undangan Workshop Januari 2016</b><br>
+													Created : 30 Desember 2016
+												</td>
+												<td>
+													<b class="color-blue-dark">40 Subscribers</b><br>
+													Read Your Broadcast
+												</td>
+												<td>
+													<a href="#" class="btn btn-grey">Follow Up</a>
+												</td>
 											</tr>
 										</table>
 									</div>
