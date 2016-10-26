@@ -44,7 +44,7 @@
 								<div class="panel-heading"><h5 class="over-title margin-bottom"> Import Your <span class="text-bold">Contact List</span></h5></div>
 							</div>
 						</div>
-						<div class="container-fluid container-fullw padding-bottom-10">
+						<div class="container-fluid padding-bottom-10">
 							<div class="row">
 								<div class="col-sm-12">
 									<div class="panel panel-white no-radius">

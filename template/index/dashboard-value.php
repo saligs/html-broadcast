@@ -51,7 +51,16 @@
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
-									<h4 class="border-bottom padding-bottom-20">Your Top 5 Broadcast Content</h4>
+									<h4 class="border-bottom padding-bottom-20">Your Broadcast</h4>
+									<div class="table-reponsive">
+										<table>
+											<tr>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+										</table>
+									</div>
 								</div>
 							</div>
 						</div>
