@@ -11,6 +11,7 @@
 	<?php include 'include/main-head.php'; ?>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="assets/css/choose-participant.css">
 </head>
 <!-- end: HEAD -->
 <body>
@@ -56,22 +57,24 @@
 
 												<div class="row">
 													<div class="col-md-8">
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-o btn-primary">
+														<button type="button" class="margin-bottom-10 btn btn-wide btn-o btn-primary" data-toggle="modal" data-target=".modal-add-from-list">
 															<i class="fa fa-plus"></i> Add From List
 														</button>
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-one-by-one">
 															<i class="fa fa-location-arrow"></i> One by one
 														</button>
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-import">
 															<i class="fa fa-download"></i> Import
 														</button>
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-copy-paste">
 															<i class="fa fa-copy"></i> Copy paste
 														</button>
 													</div>
 													<div class="col-md-4 pull-right">
-																	<span class="input-icon input-icon-right"> <input placeholder="Text Field" id="form-field-17" class="form-control" type="text">
-																	<i class="fa fa-search" ></i> </span>
+														<span class="input-icon input-icon-right">
+															<input placeholder="Text Field" id="form-field-17" class="form-control" type="text">
+															<i class="fa fa-search" ></i>
+														</span>
 													</div>
 												</div>
 
@@ -248,6 +251,12 @@
 	<?php include 'include/settings-panel.php'; ?>
 	<!-- end: SETTINGS -->
 </div>
+
+<?php include 'modal/add-from-list.php'; ?>
+<?php include 'modal/one-by-one.php'; ?>
+<?php include 'modal/import.php'; ?>
+<?php include 'modal/copy-paste.php'; ?>
+
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
