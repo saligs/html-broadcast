@@ -1,0 +1,37 @@
+<!-- start: MAIN JAVASCRIPTS -->
+<script type="text/javascript">
+    window._wiz_global={
+        ui:{},
+        tpl:{},
+        func:{},
+        data:{},
+        configPage:<?php echo json_encode($js_var) ?>,
+        urlBase:'<?php echo BASE_URL ?>'
+    };
+</script>
+<?php
+foreach ($js_file as $item) {
+    ?>
+    <script src="<?php echo $item; ?>"></script>
+    <?php
+}
+?>
+
+<script type="text/javascript">
+    window._wiz_global.ui.wrapper = $('#app');
+    window._wiz_global.ui.loading = $('#loading');
+</script>
+
+<script src="<?php echo BASE_URL ?>assets/apps/<?php echo $name ?>.js?v=<?php echo ASSETS_VERSION ?>"></script>
+<!-- end: JavaScript Event Handlers for this page -->
+<?php
+if (!IS_PRODUCTION) {
+    // untuk mengaktifkan autoload pada browser bila file berubah
+    ?>
+    <script src="http://localhost:8080/webpack-dev-server.js"></script>
+    <?php
+}
+?>
+
+</body>
+</html>

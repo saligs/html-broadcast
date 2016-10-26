@@ -11,6 +11,7 @@
 	<?php include 'include/main-head.php'; ?>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="assets/css/choose-participant.css">
 </head>
 <!-- end: HEAD -->
 <body>
@@ -56,22 +57,24 @@
 
 												<div class="row">
 													<div class="col-md-8">
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-o btn-primary">
+														<button type="button" class="margin-bottom-10 btn btn-wide btn-o btn-primary" data-toggle="modal" data-target=".modal-add-from-list">
 															<i class="fa fa-plus"></i> Add From List
 														</button>
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-one-by-one">
 															<i class="fa fa-location-arrow"></i> One by one
 														</button>
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-import">
 															<i class="fa fa-download"></i> Import
 														</button>
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-copy-paste">
 															<i class="fa fa-copy"></i> Copy paste
 														</button>
 													</div>
 													<div class="col-md-4 pull-right">
-																	<span class="input-icon input-icon-right"> <input placeholder="Text Field" id="form-field-17" class="form-control" type="text">
-																	<i class="fa fa-search" ></i> </span>
+														<span class="input-icon input-icon-right">
+															<input placeholder="Text Field" id="form-field-17" class="form-control" type="text">
+															<i class="fa fa-search" ></i>
+														</span>
 													</div>
 												</div>
 
@@ -197,35 +200,73 @@
 
 
 												<div class="container">
+													<div class="row">
 													<div class="col-md-6">
 														<p><b>Message</b></p>
 														<div>
 
 															<textarea class="text-area-responsive margin-bottom-10" name="message" rows="10" cols="70">Type Your Message Here ...</textarea>
-														</div>
+														</div>	
+													</div>
+													</div>
+												</div>
 
-														<div class="form-group">
-															<button type="button" class="btn btn-wide btn-success">	Save & Next &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </button>
+												<div class="container">
+												<div class="row margin-bottom-10">
+															<div class="col-md-12">
+																<label> Schedule Email </label><br>
+																<div class="radio clip-radio radio-primary radio-inline">
+																	<input type="radio" id="radio1" name="inline" value="radio1">
+																	<label for="radio1"> Send Now </label>
+																</div>
+																<div class="radio clip-radio radio-primary radio-inline">
+																	<input type="radio" id="radio2" name="inline" value="radio2">
+																	<label for="radio2"> Send With Scedhule </label>
+																</div>
+															</div>
+												</div>
+												</div>
+												<div class="container">
+														<div class="row">
+															<div class="col-md-4" >
+																<p class="input-group input-append datepicker date">
+																	<input type="text" class="form-control">
+																			<span class="input-group-btn">
+																				<button type="button" class="btn btn-default">
+																					<i class="glyphicon glyphicon-calendar"></i>
+																				</button> </span>
+																</p>
+															</div>
+															<div class="col-md-3" >
+																		 <span class="input-icon input-icon-right">
+																		 <input value="16:30" id="form-field-17" class="form-control" type="text">
+																		 <i class="fa fa-clock-o"></i>
+																		 </span>
+															</div>
+															<div class="col-md-5" >
+																<label>UTC+17</label>
+															</div>
+														</div>
+												</div>
+												<div class="container">
+													<div class="pull-right">
+														<div class="button-three">
+															<button type="button" class="btn btn-wide btn-o btn-primary margin-bottom-10">
+																<i class="fa fa-plus"></i> Save as Draft
+															</button>
+
+															<button type="button" class="btn btn-wide btn-o btn-primary margin-bottom-10">
+																<i class="fa fa-file-text-o"></i> Test Content
+															</button>
+
+															<button type="button" class="btn btn-wide btn-primary margin-bottom-10">
+																<i class="fa fa-location-arrow"></i> Send Now
+															</button>
 														</div>
 													</div>
 												</div>
 
-												<div class="container margin-left-10">
-													<div class="button-four">
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
-															<i class="fa fa-file-text-o"></i></i> Test Content
-														</button>
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
-															<i class="fa fa-paper-plane-o"></i> Send Now
-														</button>
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
-															<i class="fa fa-calendar" ></i> Schedule
-														</button>
-														<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
-															<i class="fa fa-pencil-square-o"></i> Save as Draft
-														</button>
-													</div>
-												</div>
+												
 											</div>
 										</div>
 									</div>
@@ -247,6 +288,12 @@
 	<?php include 'include/settings-panel.php'; ?>
 	<!-- end: SETTINGS -->
 </div>
+
+<?php include 'modal/add-from-list.php'; ?>
+<?php include 'modal/one-by-one.php'; ?>
+<?php include 'modal/import.php'; ?>
+<?php include 'modal/copy-paste.php'; ?>
+
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->

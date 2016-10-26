@@ -113,6 +113,7 @@
 														<a class="btn btn-success btn-xs float-xs-right float-md-none" href="#" style="margin-top: 3px;">Modify Email</a>
 													</div>
 												</div>
+<<<<<<< HEAD
 											</div>
 										</div>
 										<!-- Subject -->
@@ -132,6 +133,96 @@
 													<a  class="btn btn-primary btn-xs float-xs-right float-md-none margin-left-10" href="#">Edit Content</a>
 													<div class="center border-light-grey margin-top-10">
 														<img src="assets/images/layout-1.jpg" class="img-responsive">
+=======
+												<div class="panel-heading"><h5 class="over-title margin-bottom-15"> 2. Setting <span class="text-bold">Email</span></h5></div>
+												<div class="panel-body">
+													<div class="padding-30 border-light-grey">
+														<div class="row">
+															<div class="col-md-9">
+																<div class="form-group">
+																	<label for="exampleInputEmail1"> Email address </label>
+																	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+																</div>
+															</div>
+															<div class="col-md-3">
+
+															</div>
+														</div>
+
+														<div class="row">
+
+															<div class="col-md-6">
+
+																<div class="form-group">
+																	<label for="exampleInputEmail1"> From Email Name </label>
+																	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+																</div>
+																<div class="form-group">
+																	<label for="exampleInputEmail1"> Email Content </label><br>
+																</div>
+															</div>
+
+															<div class="col-md-6">
+																<div class="form-group">
+																	<label for="exampleInputEmail1"> From Email address </label><br>
+																	<h4 class="pull-left margin-right-10"><b>yasir@beon.co.id</b></h4> <a class="underline" href="#" class="pull-left">Modify Email</a>
+																</div><br>
+
+																<div class="form-group">
+																	<a  class="underline" href="#"> <b>Edit Content</b></a>
+																</div>
+															</div>
+
+														</div>
+
+														<div class="row">
+															<div class="col-md-7">
+																<img src="assets/images/layout-1.jpg" class="img-responsive">
+															</div>
+
+														</div></br>
+
+														<div class=" row">
+															<div class="col-md-12">
+																<label> Schedule Email </label><br>
+																<div class="radio clip-radio radio-primary radio-inline">
+																	<input type="radio" id="radio1" name="inline" value="radio1">
+																	<label for="radio1"> Send Now </label>
+																</div>
+																<div class="radio clip-radio radio-primary radio-inline">
+																	<input type="radio" id="radio2" name="inline" value="radio2">
+																	<label for="radio2"> Send With Scedhule </label>
+																</div>
+															</div>
+														</div></br>
+
+														
+																<div class="hide-show row">
+																	<div class="col-md-4" >		
+																	<p class="input-group input-append datepicker date">
+																<input class="form-control" type="text" id="datepicker">
+																<span class="input-group-btn">
+																	<button type="button" class="btn btn-default">
+																		<i class="glyphicon glyphicon-calendar"></i>
+																	</button> </span>
+																	</p>
+																	</div>
+
+																	<div class="col-md-3" >	
+																		<p class="input-group input-append datepicker date">
+																	<input class="form-control" type="text" id="datepicker">
+																	<span class="input-group-btn">
+																	<button type="button" class="btn btn-default">
+																		<i class="glyphicon glyphicon-time"></i>
+																	</button> </span>
+																	</p>																	
+																	</div>
+
+																	<div class="col-md-5 margin-top-10" >	
+																		<label>UTC+17</label>																
+																	</div>         
+																</div>
+>>>>>>> 6d5caa3216ba23d08ab8f6c71c40e5003d0b7674
 													</div>
 												</div>
 											</div>
@@ -217,20 +308,18 @@
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
 <script src="assets/js/index.js"></script>
-<script>
-	jQuery(document).ready(function() {
-		Main.init();
-		Index.init();
-	});
-</script>
-<script>
-	$(function() {
-		$( "#tanggal" ).datepicker({
-			changeMonth: true,
-			changeYear: true
-		});
-	});
-</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script>
+			$(document).ready(function(){
+			    $("#radio1").click(function(){
+			        $(".hide-show").hide("slow");
+			    });
+			    $("#radio2").click(function(){
+			        $(".hide-show").show("slow");
+			    });
+			});
+	</script>
 <!-- end: JavaScript Event Handlers for this page -->
 </body>
 </html>

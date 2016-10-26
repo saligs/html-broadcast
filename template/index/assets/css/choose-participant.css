@@ -49,3 +49,23 @@
     vertical-align: middle;
     float: none;
 }
+
+.modal-add-from-list.modal-aside,
+.modal-one-by-one.modal-aside,
+.modal-import.modal-aside,
+.modal-copy-paste.modal-aside {
+    background-color: #ffffff;
+    padding: 20% 10%;
+}
+
+.modal-add-from-list.modal-aside.vertical.top.in .modal-dialog,
+.modal-one-by-one.modal-aside.vertical.top.in .modal-dialog,
+.modal-import.modal-aside.vertical.top.in .modal-dialog,
+.modal-copy-paste.modal-aside.vertical.top.in .modal-dialog {
+    padding: 5% 10%;
+}
+
+.modal-body {
+    overflow-y: scroll;
+    height: 400px;
+}
