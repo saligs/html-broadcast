@@ -7,10 +7,19 @@
 	font-family: lato !important;
 }*/
 
+body{
+	font-family: lato !important;
+}
+
 .border-light-grey{
 	border: 1px solid #f0f3f4;
 	border-radius: 5px;
 	padding: 20px;
+}
+
+.button-border{
+	border: 5px solid #f0f3f4;
+	padding: 15px;
 }
 
 .size-60{
