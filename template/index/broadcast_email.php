@@ -121,7 +121,7 @@
 
 														</div></br>
 
-														<div class="row">
+														<div class=" row">
 															<div class="col-md-12">
 																<label> Schedule Email </label><br>
 																<div class="radio clip-radio radio-primary radio-inline">
@@ -135,28 +135,32 @@
 															</div>
 														</div></br>
 
-														<div class="row">
-															<div class="col-md-4" >
-																<p class="input-group input-append datepicker date">
-																	<input type="text" class="form-control">
-																			<span class="input-group-btn">
-																				<button type="button" class="btn btn-default">
-																					<i class="glyphicon glyphicon-calendar"></i>
-																				</button> </span>
-																</p>
-															</div>
+														
+																<div class="hide-show row">
+																	<div class="col-md-4" >		
+																	<p class="input-group input-append datepicker date">
+																<input class="form-control" type="text" id="datepicker">
+																<span class="input-group-btn">
+																	<button type="button" class="btn btn-default">
+																		<i class="glyphicon glyphicon-calendar"></i>
+																	</button> </span>
+																	</p>
+																	</div>
 
-															<div class="col-md-3" >
-																		 <span class="input-icon input-icon-right">
-																		 <input value="16:30" id="form-field-17" class="form-control" type="text">
-																		 <i class="fa fa-clock-o"></i>
-																		 </span>
-															</div>
+																	<div class="col-md-3" >	
+																		<p class="input-group input-append datepicker date">
+																	<input class="form-control" type="text" id="datepicker">
+																	<span class="input-group-btn">
+																	<button type="button" class="btn btn-default">
+																		<i class="glyphicon glyphicon-time"></i>
+																	</button> </span>
+																	</p>																	
+																	</div>
 
-															<div class="col-md-5" >
-																<label>UTC+17</label>
-															</div>
-														</div>
+																	<div class="col-md-5 margin-top-10" >	
+																		<label>UTC+17</label>																
+																	</div>         
+																</div>
 													</div>
 												</div>
 												<br>
@@ -201,20 +205,18 @@
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
 <script src="assets/js/index.js"></script>
-<script>
-	jQuery(document).ready(function() {
-		Main.init();
-		Index.init();
-	});
-</script>
-<script>
-	$(function() {
-		$( "#tanggal" ).datepicker({
-			changeMonth: true,
-			changeYear: true
-		});
-	});
-</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script>
+			$(document).ready(function(){
+			    $("#radio1").click(function(){
+			        $(".hide-show").hide("slow");
+			    });
+			    $("#radio2").click(function(){
+			        $(".hide-show").show("slow");
+			    });
+			});
+	</script>
 <!-- end: JavaScript Event Handlers for this page -->
 </body>
 </html>

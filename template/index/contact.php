@@ -44,7 +44,7 @@
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
 									<div class="panel-heading">
-										<h2 class="border-bottom padding-bottom-15"> Add Contact </h2>
+										<h4 class="border-bottom padding-bottom-15"> Add Contact </h4>
 									</div>
 									<div class="row padding-left-30 padding-right-30 padding-bottom-30">
 										<div class="col-md-3">
