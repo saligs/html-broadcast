@@ -55,25 +55,34 @@
 									<div class="row margin-bottom-20">
 
 										<div class="col-md-3">
-											<div class="warna padding-5">
+											<div class="warna padding-10">
 												Field
 											</div>
 										</div>
 
+									
 										<div class="col-md-3">
-											<div class="warna padding-5">
+											<div class="warna padding-10">
+												<div class="row">
+													<div class="col-md-6">
+														Row 1
+													</div>
+													<div class="col-md-6 pull-right">
+														<u>remove this row </u>
+													</div>
+												</div>
+											</div>
+										</div>	
+									
+
+										<div class="col-md-3">
+											<div class="warna padding-10">
 												Row 1
 											</div>
 										</div>
 
 										<div class="col-md-3">
-											<div class="warna padding-5">
-												Row 1
-											</div>
-										</div>
-
-										<div class="col-md-3">
-											<div class="warna padding-5">
+											<div class="warna padding-10">
 												.....
 											</div>
 										</div>
