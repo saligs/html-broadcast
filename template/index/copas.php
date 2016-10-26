@@ -41,7 +41,7 @@
 				<!-- start: FIRST SECTION -->
 				<div class="container padding-left-30 padding-right-30 padding-top-30">
 					<div class="row">
-						<h4 class="border-bottom padding-bottom-20">Copy Paste Your Data Contact</h4>
+						<div class="panel-heading"><h5 class="over-title margin-bottom"> Copy Paste <span class="text-bold">Your Data Contact</span></h5></div>
 					</div>
 				</div>
 				<div class="container-fluid container-fullw padding-bottom-10">

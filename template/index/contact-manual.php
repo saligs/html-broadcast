@@ -42,7 +42,7 @@
 				<!-- start: FIRST SECTION -->
 				<div class="container padding-left-30 padding-right-30 padding-top-30">
 					<div class="row">
-						<h4 class="border-bottom padding-bottom-20">Add Your Contact List Manually</h4>
+						<div class="panel-heading"><h5 class="over-title margin-bottom"> Add Your <span class="text-bold">Contact List Manually</span></h5></div>
 					</div>
 				</div>
 				<div class="container-fluid container-fullw padding-bottom-10">
@@ -64,7 +64,7 @@
 											<input type="text" class="form-control" placeholder="Your Text Field">
 										</div>
 										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><i class="fa fa-trash"></i> Delete</a></div>
+											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
 										</div>
 									</div>
 									<div class="row margin-bottom-20">
@@ -81,7 +81,7 @@
 											<input type="text" class="form-control" placeholder="Your Text Field">
 										</div>
 										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><i class="fa fa-trash"></i> Delete</a></div>
+											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
 										</div>
 									</div>
 									<div class="row margin-bottom-20">
@@ -98,7 +98,7 @@
 											<input type="text" class="form-control" placeholder="Your Text Field">
 										</div>
 										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><i class="fa fa-trash"></i> Delete</a></div>
+											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
 										</div>
 									</div>
 									<div class="row margin-bottom-20">
@@ -115,7 +115,7 @@
 											<input type="text" class="form-control" placeholder="Your Text Field">
 										</div>
 										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><i class="fa fa-trash"></i> Delete</a></div>
+											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
 										</div>
 									</div>
 									<div class="row margin-bottom-20">
@@ -132,7 +132,7 @@
 											<input type="text" class="form-control" placeholder="Your Text Field">
 										</div>
 										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><i class="fa fa-trash"></i> Delete</a></div>
+											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
 										</div>
 									</div>
 									<div class="row">

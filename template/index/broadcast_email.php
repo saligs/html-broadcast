@@ -47,7 +47,7 @@
 										<div class="col-md-12">
 											<div class="panel panel-white no-radius no-border">
 												<div class="panel-heading">
-													<h2 class="border-bottom padding-bottom-15"> 1. Choose Your Receipents </h2>
+													<h5 class="over-title margin-bottom-15"> 1. Choose <span class="text-bold">Your Receipents</span></h5>
 												</div>
 												<div class="panel-body">
 													<div class="padding-30 border-light-grey margin-bottom-20">
@@ -73,7 +73,7 @@
 														</div>
 													</div>
 												</div>
-												<div class="panel-heading"><h2 class="border-bottom padding-bottom-15 margin-bottom-20"> 2. Setting Email </h2></div>
+												<div class="panel-heading"><h5 class="over-title margin-bottom-15"> 2. Setting <span class="text-bold">Email</span></h5></div>
 												<div class="panel-body">
 													<div class="padding-30 border-light-grey">
 														<div class="row">

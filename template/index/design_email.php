@@ -33,7 +33,7 @@
         <div class="container-fluid container-fullw padding-bottom-10">
           <div class="row">
             <div class="col-md-6">
-              <h4 class="no-margin">Design Email</h4>
+              <div class="panel-heading"><h5 class="over-title margin-bottom"> Design <span class="text-bold">Email</span></h5></div>
             </div>
             <div class="col-md-6">
               <a href="list.php" class="btn btn-wide btn-primary pull-right">Save & Back to Email Setting</a>

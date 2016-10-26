@@ -44,7 +44,7 @@
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
 									<div class="panel-heading">
-										<h2 class="border-bottom padding-bottom-15"> Your Group List </h2>
+										<div class="panel-heading"><h5 class="over-title margin-bottom-15"> Your <span class="text-bold">Group List</span></h5></div>
 									</div>
 									<div class="table-responsive">
 										<table class="table borderless">

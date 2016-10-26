@@ -32,7 +32,7 @@
                 <div class="container-fluid container-fullw padding-bottom-10">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h4 class="border-bottom padding-bottom-20">Choose Your Template</h4>
+                            <h5 class="over-title margin-bottom-15">Choose <span class="text-bold">Your Template</span></h5>
                             <div class="row">
                                 <div class="col-sm-5 col-xs-6">
                                     <!-- <button type="button" class="btn btn-primary btn-wide jarak tombol3">Basic</button>

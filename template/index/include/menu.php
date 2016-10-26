@@ -63,29 +63,6 @@
 				</div>
 			</a>
 		</li>
-		<li class="">
-			<a href="javascript:void(0)">
-				<div class="item-content">
-					<div class="item-media">
-						<i class="fa fa-gear"></i>
-					</div>
-					<div class="item-inner">
-						<span class="title">Setting </span><i class="icon-arrow"></i>
-					</div>
-				</div>
-			</a>
-			<ul class="sub-menu">
-				<li>
-					<a href="#">General</a>
-				</li>
-				<li>
-					<a href="#">Email Server</a>
-				</li>
-				<li>
-					<a href="#">SMS Server</a>
-				</li>
-			</ul>
-		</li>
 	</ul>
 	<!-- end: CORE FEATURES -->
 </nav>

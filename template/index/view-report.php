@@ -64,12 +64,11 @@
 														</div>
 													</div>
 												</div>
-												<hr>
 												<div class="panel-body">
-													<h5 class="over-title margin-bottom-15"><span class="text-bold">Click Performance</span></h5>
 													<div class="padding-30 border-light-grey margin-bottom-20">
 														<div>
 															<div class="row">
+																<h5 class="over-title margin-bottom-15">Click <span class="text-bold"> Performance</span></h5>
 																<div class="col-md-6">
 																	<div class="col-sm-6">
 																		<p>Click Rate</p>
@@ -90,7 +89,7 @@
 															</div>
 														</div>
 														<div class="row">
-															<h5 class="over-title margin-bottom-15"><span class="text-bold">Your Subcriber name</span></h5>
+															<h5 class="over-title margin-bottom-15">Your <span class="text-bold"> Subcriber name</span></h5>
 															<div class="table-responsive">
 																<table class="table table-hover" id="sample-table-1">
 																	<thead>

@@ -107,7 +107,7 @@
 												</div>
 
 												<div class="margin-bottom-10">
-													<h4><b>You have Subcriber Name </b></h4>
+													<h5 clas="over-title margin-bottom-15"> You have <b>Subscriber Name</b></h5>
 												</div>
 
 												<div class="row container">

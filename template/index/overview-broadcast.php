@@ -60,7 +60,7 @@
 													</div>
 												</div>
 												<hr class="onepixel">
-												<h5 clas="over-title"><b>Broadcast Performance</b></h5>
+												<h5 clas="over-title margin-bottom-15"> Broadcast <b>Performance</b></h5>
 												<div class="row margin-bottom-20">
 													<div class="col-sm-6">
 														<div class="col-sm-6">
@@ -94,7 +94,7 @@
 														</div>
 													</div>
 												</div>
-												<h5><b>Your Subscriber Name</b></h5>
+												<h5 clas="over-title margin-bottom-15"> Your <b>Subscriber Name</b></h5>
 												<div class="table-responsive">
 													<table class="table table-hover margin-bottom-10" id="sample-table-1">
 														<thead>
@@ -188,7 +188,7 @@
 														</div>
 													</div>
 												</div>
-												<h5><b>Your Link Report</b></h5>
+												<h5 clas="over-title margin-bottom-15"> Your <b>Link Report</b></h5>
 												<div class="row margin-bottom-20">
 													<div class="col-sm-6">
 														<div class="col-sm-6">
@@ -206,7 +206,7 @@
 														</div>
 													</div>
 												</div>
-												<h5><b>Your Link Click</b></h5>
+												<h5 clas="over-title margin-bottom-15"> Your <b>Link Click</b></h5>
 												<div class="table-responsive">
 													<table class="table table-hover" id="sample-table-1">
 														<thead>
