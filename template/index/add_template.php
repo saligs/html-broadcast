@@ -27,7 +27,7 @@
             <div class="wrap-content container" id="container">
                 <!-- start: BREADCRUMB -->
                 <div class="breadcrumb-wrapper">
-                    <a href="index.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Setting Email</h4></a>
+                    <a href="broadcast_email.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Setting Email</h4></a>
                 </div>
                 <div class="container-fluid container-fullw padding-bottom-10">
                     <div class="row">
