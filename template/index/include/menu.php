@@ -29,10 +29,10 @@
 			</a>
 			<ul class="sub-menu">
 				<li>
-					<a href="broadcast_email.php"><span class="title">Email Broadcast</span></a>
+					<a href="broadcast_sms.php"><span class="title">SMS Broadcast</span></a>
 				</li>
 				<li>
-					<a href="broadcast_sms.php"><span class="title">SMS Broadcast</span></a>
+					<a href="broadcast_email.php"><span class="title">Email Broadcast</span></a>
 				</li>
 				<li>
 					<a href="list.php"><span class="title">History</span></a>

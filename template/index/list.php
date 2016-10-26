@@ -26,13 +26,15 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Page Broadcast List</h4>
+					<h4 class="mainTitle no-margin">Broadcast History</h4>
+					<span class="mainDescription">Check your history for your better future</span>
+
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="dashboard.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
 						</li>
 						<li>
-							Dashboard
+							Broadcast History
 						</li>
 					</ul>
 				</div>
@@ -43,64 +45,60 @@
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
-									<div class="panel-heading">
-										<div class="panel-heading"><h5 class="over-title margin-bottom"> Your <span class="text-bold"> Broadcast List </span></h5></div>
-									</div>
 									<div class="table-responsive">
-										<table class="table borderless">
-											<tr>
-												<td>
-													<div class="checkbox clip-check  no-margin check-primary check-lg checkbox-inline">
-														<input type="checkbox" id="checkbox17" value="1">
-														<label for="checkbox17"></label>
-													</div>
-												</td>
-												<td>
-													Sort By
-													<div class="btn-group">
-														<button type="button" class="btn btn-light-grey">
-															Name
-														</button>
-														<button type="button" class="btn btn-light-grey dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-															<span class="fa fa-angle-down"></span>
-														</button>
-														<ul class="dropdown-menu" role="menu">
-															<li role="presentation" class="dropdown-header">
-																Dropdown header
-															</li>
-															<li>
-																<a href="#"> Action </a>
-															</li>
-															<li>
-																<a href="#"> Another action </a>
-															</li>
-															<li>
-																<a href="#"> Something else here </a>
-															</li>
-															<li class="divider"></li>
-															<li role="presentation" class="dropdown-header">
-																Dropdown header
-															</li>
-															<li>
-																<a href="#"> Separated link </a>
-															</li>
-														</ul>
-													</div>
-													<a href="#" class="btn btn-light-grey"><i class="fa fa-trash"></i> Delete</a>
-												</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td>
-													<div class="form-group padding-right-5">
+										<table class="table borderless table-head-border table-last-20-percent">
+											<thead>
+												<tr>
+													<td>
+														<div class="checkbox clip-check  no-margin check-primary check-lg checkbox-inline">
+															<input type="checkbox" id="checkbox17" value="1">
+															<label for="checkbox17"></label>
+														</div>
+													</td>
+													<td>
+														Sort By
+														<div class="btn-group">
+															<button type="button" class="btn btn-light-grey">
+																Name
+															</button>
+															<button type="button" class="btn btn-light-grey dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+																<span class="fa fa-angle-down"></span>
+															</button>
+															<ul class="dropdown-menu" role="menu">
+																<li role="presentation" class="dropdown-header">
+																	Dropdown header
+																</li>
+																<li>
+																	<a href="#"> Action </a>
+																</li>
+																<li>
+																	<a href="#"> Another action </a>
+																</li>
+																<li>
+																	<a href="#"> Something else here </a>
+																</li>
+																<li class="divider"></li>
+																<li role="presentation" class="dropdown-header">
+																	Dropdown header
+																</li>
+																<li>
+																	<a href="#"> Separated link </a>
+																</li>
+															</ul>
+														</div>
+														<a href="#" class="btn btn-light-grey"><i class="fa fa-trash"></i> Delete</a>
+													</td>
+													<td colspan="5">
+														<div class="col-md-6 pull-right">
 															<span class="input-icon input-icon-right">
 																<input type="text" placeholder="Search..." id="form-field-17" class="form-control">
 																<i class="fa fa-search"></i>
 															</span>
-													</div>
-												</td>
-											</tr>
+														</div>
+													</td>
+												</tr>
+											</thead>
+											<tbody>
 											<tr>
 												<td>
 													<div class="checkbox clip-check check-primary check-lg checkbox-inline">
@@ -277,9 +275,10 @@
 													</div>
 												</td>
 											</tr>
+											</tbody>
 										</table>
 									</div>
-									<div class="panel-body"><div class="border-bottom margin-bottom-20"></div></div>
+
 									<div class="row">
 										<div class="col-xs-4 full-block">
 											<div class="dataTables_length padding-left-15" id="sample_2_length">

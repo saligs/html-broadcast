@@ -48,49 +48,145 @@
 								<div class="panel-body">
 									<!-- Recipients -->
 									<h5 class="over-title margin-bottom-15">Choose <span class="text-bold">Your Receipents</span></h5>
-									<div class="padding-30 border-light-grey margin-bottom-20">
-										<div class="text-center"><i class="fa fa-users size-60 grey-icon"></i></div>
-										<h3 class="text-center">You have no participant</h3>
-										<div class="container">
-											<center>
-												<div class="button-four">
-
-													<button type="button"
-															class="margin-bottom-10 btn btn-wide btn-primary"
-															data-toggle="modal"
-															data-target=".bs-modal-choose-participant">
+									<div class="margin-bottom-20">
+										<div class="table-contact-container">
+											<div class="row">
+												<div class="col-md-8">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-o btn-primary">
 														<i class="fa fa-plus"></i> Add From List
 													</button>
-
-													<button type="button"
-															class="margin-bottom-10 btn btn-wide btn-primary"
-															data-toggle="modal"
-															data-target=".bs-modal-choose-participant-one">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
 														<i class="fa fa-location-arrow"></i> One by one
 													</button>
-
-													<button type="button"
-															class="margin-bottom-10 btn btn-wide btn-primary"
-															data-toggle="modal"
-															data-target=".bs-modal-import">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
 														<i class="fa fa-download"></i> Import
 													</button>
-
-													<button type="button"
-															class="margin-bottom-10 btn btn-wide btn-primary"
-															data-toggle="modal"
-															data-target=".bs-modal-copas">
-														<i class="fa fa-copy"></i> Copy Paste
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+														<i class="fa fa-copy"></i> Copy paste
 													</button>
-
 												</div>
-											</center>
-										</div>
-										<div class="modal-all-container">
-											<?php include 'modal-choose-participant.php'; ?>
-											<?php include 'modal-choose-participant-one.php'; ?>
-											<?php include 'modal-import.php'; ?>
-											<?php include 'modal-copas.php'; ?>
+												<div class="col-md-4 pull-right">
+																		<span class="input-icon input-icon-right"> <input placeholder="Text Field" id="form-field-17" class="form-control" type="text">
+																		<i class="fa fa-search" ></i> </span>
+												</div>
+											</div>
+											<div class="row">
+												<div class="container">
+													<div class="table-responsive">
+														<table class="table table-hover" id="sample-table-1">
+															<thead>
+															<tr>
+																<th class="center">id</th>
+																<th>Email Address</th>
+																<th>First Name</th>
+																<th>Last Name</th>
+																<th>City</th>
+																<th>Phone</th>
+																<th>&nbsp;</th>
+															</tr>
+															</thead>
+															<tbody>
+															<tr>
+																<td class="center">1</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															<tr>
+																<td class="center">2</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															<tr>
+																<td class="center">3</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															<tr>
+																<td class="center">4</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															<tr>
+																<td class="center">5</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-6">
+													<div class="dataTables_length">
+														<label>View</label>
+														<div class="clip-select inline-block">
+															<label><select aria-controls="sample_2" class=
+																"form-control input-sm m-wrap small" name="sample_2_length">
+																	<option value="5">
+																		5
+																	</option>
+																	<option value="10">
+																		10
+																	</option>
+																	<option value="15">
+																		15
+																	</option>
+																	<option value="20">
+																		20
+																	</option>
+																	<option value="-1">
+																		All
+																	</option>
+																</select></label>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6 ">
+												<div class="pull-right">
+													<ul class="pagination no-margin margin-bottom-10">
+														<li>
+															<a href="#"> <i class="ti-arrow-left"></i> </a>
+														</li>
+														<li>
+															<a href="#"> 1 </a>
+														</li>
+														<li>
+															<a href="#"> 2 </a>
+														</li>
+														<li>
+															<a href="#"> 3 </a>
+														</li>
+														<li>
+															<a href="#"> 4 </a>
+														</li>
+														<li>
+															<a href="#"> <i class="ti-arrow-right"></i> </a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											</div>
 										</div>
 									</div>
 
@@ -189,7 +285,7 @@
 											</button>
 
 											<button type="button" class="btn btn-wide btn-primary margin-bottom-10">
-												<i class="fa fa-location-arrow"></i> Send Now
+												<i class="fa fa-location-arrow"></i> Create Broadcast
 											</button>
 										</div>
 									</div>
