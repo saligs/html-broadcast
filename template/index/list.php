@@ -136,10 +136,10 @@
 																Choose Method
 															</li>
 															<li>
-																<a href="index.php"> SMS Broadcast</a>
+																<a href="broadcast_sms.php"> SMS Broadcast</a>
 															</li>
 															<li>
-																<a href="index.php"> Email Broadcast</a>
+																<a href="broadcast_email.php"> Email Broadcast</a>
 															</li>
 														</ul>
 													</div>
@@ -180,10 +180,10 @@
 																Choose Method
 															</li>
 															<li>
-																<a href="index.php"> SMS Broadcast</a>
+																<a href="broadcast_sms.php"> SMS Broadcast</a>
 															</li>
 															<li>
-																<a href="index.php"> Email Broadcast</a>
+																<a href="broadcast_email.php"> Email Broadcast</a>
 															</li>
 														</ul>
 													</div>
@@ -224,10 +224,10 @@
 																Choose Method
 															</li>
 															<li>
-																<a href="index.php"> SMS Broadcast</a>
+																<a href="broadcast_sms.php"> SMS Broadcast</a>
 															</li>
 															<li>
-																<a href="index.php"> Email Broadcast</a>
+																<a href="broadcast_email.php"> Email Broadcast</a>
 															</li>
 														</ul>
 													</div>
@@ -268,10 +268,10 @@
 																Choose Method
 															</li>
 															<li>
-																<a href="index.php"> SMS Broadcast</a>
+																<a href="broadcast_sms.php"> SMS Broadcast</a>
 															</li>
 															<li>
-																<a href="index.php"> Email Broadcast</a>
+																<a href="broadcast_email.php"> Email Broadcast</a>
 															</li>
 														</ul>
 													</div>
