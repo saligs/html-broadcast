@@ -30,7 +30,7 @@
 							<a href="dashboard.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
 							<ul class="pull-right breadcrumb">
 								<li>
-									<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+									<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 								</li>
 								<li>
 									Dashboard

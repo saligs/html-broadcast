@@ -30,7 +30,7 @@
 					<span class="mainDescription">Check your history for your better future</span>
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="dashboard.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="dashboard.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
 							Dashboard

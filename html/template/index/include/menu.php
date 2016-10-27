@@ -1,8 +1,10 @@
 <nav>
 	<!-- start: MAIN NAVIGATION MENU -->
+	<!--
 	<div class="navbar-title">
 		<span>Main Navigation</span>
 	</div>
+	-->
 	<ul class="main-navigation-menu">
 		<li class="active open">
 			<a href="dashboard.php">
