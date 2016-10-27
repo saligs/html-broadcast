@@ -15915,6 +15915,9 @@ figure.effect-goliath:hover p {
 .table-last-20-percent tbody td:last-child {
   width: 20%;
 }
+.table-last-25-percent tbody td:last-child {
+  width: 25%;
+}
 
 .bc-block-item {
   float: left;
