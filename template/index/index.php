@@ -43,10 +43,10 @@
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
-									<div class="text-center padding-20"><i class="fa fa-file-text-o size-60 grey-icon"></i>
+									<div class="text-center padding-20">
+										<img src="assets/images/megaphone.png" class="icon-width padding-bottom-20" alt="">
 										<h2>You have no Broadcast</h2>
 										<a href="broadcast_sms.php" class="underline">Send SMS Broadcast</a> or <a href="broadcast_email.php" class="underline">Send Email Broadcast</a> to get started.
-
 									</div>
 								</div>
 							</div>

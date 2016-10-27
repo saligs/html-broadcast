@@ -50,8 +50,10 @@
 									<!-- Recipients -->
 									<h5 class="over-title margin-bottom-15">1. Choose <span class="text-bold">Your Receipents</span></h5>
 									<div class="padding-30 border-light-grey margin-bottom-20">
-										<div class="text-center"><i class="fa fa-users size-60 grey-icon"></i></div>
-										<h3 class="text-center">You have no participant</h3>
+										<div class="text-center">
+										<img src="assets/images/no-contact.png" class="icon-width padding-bottom-20" alt="">
+										</div>
+										<h3 class="text-center">You have no Receipents</h3>
 										<div class="container">
 											<center>
 												<div class="button-four">
