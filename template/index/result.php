@@ -30,30 +30,26 @@
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
 					<a href="dashboard.php"><h4 class="mainTitle no-margin">Choose Participant  &nbsp;  <i class="fa fa-angle-right"></i>&nbsp; Copy Paste  &nbsp; <i class="fa fa-angle-right"></i>&nbsp;Result Data</h4></a>
-					<ul class="pull-right breadcrumb">
+					<!-- <ul class="pull-right breadcrumb">
 						<li>
 							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
 							Dashboard
 						</li>
-					</ul>
+					</ul> -->
 				</div>
 				<!-- end: BREADCRUMB -->
 				<!-- start: FIRST SECTION -->
-				<div class="container padding-left-30 padding-right-30 padding-top-30">
-					<div class="row">
-						<div class="panel-heading"><h5 class="over-title margin-bottom"><span class="text-bold">Result Data From Copy Paste</span></h5></div>
-					</div>
-				</div>
 				<div class="container-fluid container-fullw padding-bottom-10">
+						<div class="row">
+							<div class="panel-heading"><h5 class="over-title margin-bottom"><span class="text-bold">Result Data From Copy Paste</span></h5></div>
+						</div>
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
 								<div class="panel-body padding-top-50 padding-bottom-50">
-
 									<div class="row margin-bottom-20">
-
 										<div class="col-md-3">
 											<div class="warna padding-10">
 												Field
@@ -77,7 +73,7 @@
 
 										<div class="col-md-3">
 											<div class="warna padding-10">
-												Row 1
+												Row 2
 											</div>
 										</div>
 
@@ -100,11 +96,11 @@
 										</div>
 
 										<div class="col-md-3">
-											<input type="text" class="form-control" placeholder="text">
+											<input type="text" class="form-control" placeholder="Read Only">
 										</div>
 
 										<div class="col-md-3">
-											<input type="text" class="form-control" placeholder="text">
+											<input type="text" class="form-control" placeholder="Read Only">
 										</div>
 
 										<div class="col-md-3">
@@ -124,11 +120,11 @@
 										</div>
 
 										<div class="col-md-3">
-											<input type="text" class="form-control" placeholder="text">
+											<input type="text" class="form-control" placeholder="Read Only">
 										</div>
 
 										<div class="col-md-3">
-											<input type="text" class="form-control" placeholder="text">
+											<input type="text" class="form-control" placeholder="Read Only">
 										</div>
 
 										<div class="col-md-3">
@@ -148,11 +144,11 @@
 										</div>
 
 										<div class="col-md-3">
-											<input type="text" class="form-control" placeholder="text">
+											<input type="text" class="form-control" placeholder="Read Only">
 										</div>
 
 										<div class="col-md-3">
-											<input type="text" class="form-control" placeholder="text">
+											<input type="text" class="form-control" placeholder="Read Only">
 										</div>
 
 										<div class="col-md-3">
@@ -171,11 +167,11 @@
 										</div>
 
 										<div class="col-md-3">
-											<input type="text" class="form-control" placeholder="text">
+											<input type="text" class="form-control" placeholder="Read Only">
 										</div>
 
 										<div class="col-md-3">
-											<input type="text" class="form-control" placeholder="text">
+											<input type="text" class="form-control" placeholder="Read Only">
 										</div>
 
 										<div class="col-md-3">

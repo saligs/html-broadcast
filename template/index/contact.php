@@ -53,7 +53,7 @@
 											<a href="import.php">
 											<div class="button-border">
 												<div class="icon-grey size-60 text-center">
-													<i class="fa fa-download"></i><br>
+													<i class="ti ti-import"></i><br>
 												</div>
 												<div class="text-center">
 													Import Contact
@@ -65,7 +65,7 @@
 											<a href="copas.php">
 											<div class="button-border">
 												<div class="icon-grey size-60 text-center">
-													<i class="fa fa-copy"></i><br>
+													<i class="ti ti-files"></i><br>
 												</div>
 												<div class="text-center">
 													Copy Paste
@@ -77,7 +77,7 @@
 											<a href="contact-manual.php">
 											<div class="button-border">
 												<div class="icon-grey size-60 text-center">
-													<i class="fa fa-user-plus"></i><br>
+													<i class="ti ti-plus"></i><br>
 												</div>
 												<div class="text-center">
 													Add Manual
@@ -89,7 +89,7 @@
 											<a href="#">
 											<div class="button-border">
 												<div class="icon-grey size-60 text-center">
-													<i class="fa fa-code"></i><br>
+													<i class="ti ti-layout-slider"></i><br>
 												</div>
 												<div class="text-center">
 													Use Api
