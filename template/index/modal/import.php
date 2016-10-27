@@ -5,7 +5,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
-				<h5 class="over-title margin-bottom"> Import Your <span class="text-bold">Contact List</span></h5>
+				<h5 class="over-title margin-bottom-0"> Import Your <span class="text-bold">Contact List</span></h5>
 			</div>
 			<div class="modal-body">
 				<div class="text-center grey-icon">

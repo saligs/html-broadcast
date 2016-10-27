@@ -5,7 +5,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
-				<h5 class="over-title margin-bottom"> Copy Paste <span class="text-bold">Your Data Contact</span></h5>
+				<h5 class="over-title margin-bottom-0"> Copy Paste <span class="text-bold">Your Data Contact</span></h5>
 			</div>
 			<div class="modal-body">
 				<textarea name="" id="" cols="30" rows="10" class="form-control" placeholder=" Email Address... Firstname... Lastname...\n\n Email Address... Firstname... Lastname...\n\n Email Address... Firstname... Lastname...\n\n Email Address... Firstname... Lastname...\n"></textarea>
