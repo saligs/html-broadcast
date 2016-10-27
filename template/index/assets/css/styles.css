@@ -15982,3 +15982,6 @@ figure.effect-goliath:hover p {
 .modal-custom .modal-header {
   max-height: 50px;
 }
+
+.cursor-pointer { cursor: pointer; }
+.margin-top-8 { margin-top: 8px !important; }

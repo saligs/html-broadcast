@@ -48,7 +48,7 @@
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
 									<!-- Recipients -->
-									<h5 class="over-title margin-bottom-15">Choose <span class="text-bold">Your Receipents</span></h5>
+									<h5 class="over-title margin-bottom-15">1. Choose <span class="text-bold">Your Receipents</span></h5>
 									<div class="padding-30 border-light-grey margin-bottom-20">
 										<div class="text-center"><i class="fa fa-users size-60 grey-icon"></i></div>
 										<h3 class="text-center">You have no participant</h3>
@@ -75,7 +75,7 @@
 									</div>
 
 									<!-- Setting -->
-									<h5 class="over-title margin-bottom-15">Email <span class="text-bold">Configuration</span></h5>
+									<h5 class="over-title margin-bottom-15">2. Email <span class="text-bold">Configuration</span></h5>
 									<div class="padding-30 border-light-grey">
 										<!-- Email From -->
 										<div class="row">
@@ -96,9 +96,9 @@
 																<option value="3">nikola@tesla</option>
 															</select>
 														</div>
-														<button type="button" class="btn btn-success pull-right" data-toggle="modal" data-target=".modal-add-new-email">
-															<i class="fa fa-plus"></i> Add New Email
-														</button>
+														<div class="underline pull-left cursor-pointer margin-left-10 margin-top-8" data-toggle="modal" data-target=".modal-add-new-email">
+															Add New Email
+														</div>
 													</div>
 												</div>
 
@@ -117,7 +117,7 @@
 										<div class="row">
 											<div class="col-md-12">
 												<div class="form-group">
-													<label for="exampleInputEmail1"> Content</label>
+													<label for="exampleInputEmail1"> Broadcast Content</label>
 													<a  class="btn btn-primary btn-xs float-xs-right float-md-none margin-left-10" href="#">Edit Content</a>
 													<div class="center border-light-grey margin-top-10">
 														<img src="assets/images/layout-1.jpg" class="img-responsive">
@@ -169,12 +169,12 @@
 
 									<div class="pull-right margin-top-20">
 										<div class="button-three">
-											<button type="button" class="btn btn-wide btn-o btn-primary margin-bottom-10">
-												<i class="fa fa-plus"></i> Save as Draft
+											<button type="button" class="btn btn-wide btn-o btn-default margin-bottom-10">
+												Save as Draft
 											</button>
 
-											<button type="button" class="btn btn-wide btn-o btn-primary margin-bottom-10">
-												<i class="fa fa-file-text-o"></i> Test Content
+											<button type="button" class="btn btn-wide btn-o btn-default margin-bottom-10">
+												Test Content
 											</button>
 
 											<button type="button" class="btn btn-wide btn-primary margin-bottom-10">
