@@ -57,7 +57,7 @@
 					<a href="contact.php"><span class="title">Add New</span></a>
 				</li>
 				<li>
-					<a href="contact-list.php"><span class="title">Lists</span></a>
+					<a href="contact-list.php"><span class="title">List</span></a>
 				</li>
 			</ul>
 		</li>
