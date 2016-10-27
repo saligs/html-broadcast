@@ -27,15 +27,15 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Email Broadcast</h4>
-					<span class="mainDescription">Send your broadcast via email</span>
+					<h4 class="mainTitle no-margin">SMS Broadcast</h4>
+					<span class="mainDescription">Send your broadcast via sms</span>
 
 					<ul class="pull-right breadcrumb">
 						<li>
 							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
-							Email Broadcast
+							SMS Broadcast
 						</li>
 					</ul>
 				</div>
@@ -48,13 +48,10 @@
 								<div class="panel-body">
 									<!-- Recipients -->
 									<h5 class="over-title margin-bottom-15">Choose <span class="text-bold">Your Receipents</span></h5>
-									<div class="padding-30 border-light-grey margin-bottom-20">
-										<div class="text-center"><i class="fa fa-users size-60 grey-icon"></i></div>
-										<h3 class="text-center">You have no participant</h3>
-										<div class="container">
-											<center>
-												<div class="button-four">
-
+									<div class="margin-bottom-20">
+										<div class="table-contact-container">
+											<div class="row">
+												<div class="col-md-8">
 													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-add-from-list">
 														<i class="fa fa-plus"></i> Add From List
 													</button>
@@ -67,56 +64,145 @@
 													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-copy-paste">
 														<i class="fa fa-copy"></i> Copy paste
 													</button>
-
 												</div>
-											</center>
+												<div class="col-md-4 pull-right">
+																		<span class="input-icon input-icon-right"> <input placeholder="Text Field" id="form-field-17" class="form-control" type="text">
+																		<i class="fa fa-search" ></i> </span>
+												</div>
+											</div>
+											<div class="row">
+												<div class="container">
+													<div class="table-responsive">
+														<table class="table table-hover" id="sample-table-1">
+															<thead>
+															<tr>
+																<th class="center">id</th>
+																<th>Email Address</th>
+																<th>First Name</th>
+																<th>Last Name</th>
+																<th>City</th>
+																<th>Phone</th>
+																<th>&nbsp;</th>
+															</tr>
+															</thead>
+															<tbody>
+															<tr>
+																<td class="center">1</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															<tr>
+																<td class="center">2</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															<tr>
+																<td class="center">3</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															<tr>
+																<td class="center">4</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															<tr>
+																<td class="center">5</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+															</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-6">
+													<div class="dataTables_length">
+														<label>View</label>
+														<div class="clip-select inline-block">
+															<label><select aria-controls="sample_2" class=
+																"form-control input-sm m-wrap small" name="sample_2_length">
+																	<option value="5">
+																		5
+																	</option>
+																	<option value="10">
+																		10
+																	</option>
+																	<option value="15">
+																		15
+																	</option>
+																	<option value="20">
+																		20
+																	</option>
+																	<option value="-1">
+																		All
+																	</option>
+																</select></label>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6 ">
+													<div class="pull-right">
+														<ul class="pagination no-margin margin-bottom-10">
+															<li>
+																<a href="#"> <i class="ti-arrow-left"></i> </a>
+															</li>
+															<li>
+																<a href="#"> 1 </a>
+															</li>
+															<li>
+																<a href="#"> 2 </a>
+															</li>
+															<li>
+																<a href="#"> 3 </a>
+															</li>
+															<li>
+																<a href="#"> 4 </a>
+															</li>
+															<li>
+																<a href="#"> <i class="ti-arrow-right"></i> </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 
 									<!-- Setting -->
-									<h5 class="over-title margin-bottom-15">Email <span class="text-bold">Configuration</span></h5>
+									<h5 class="over-title margin-bottom-15">Write <span class="text-bold">Message Content</span></h5>
 									<div class="padding-30 border-light-grey">
-										<!-- Email From -->
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label for="exampleInputEmail1"> From Name </label>
-													<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-												</div>
-											</div>
-											<div class="col-md-6">
-												<div class="form-group">
-													<label for="exampleInputEmail1"> From Email </label>
-													<div class="clearfix">
-														<h4 class="pull-left margin-right-10" style="margin-top: 5px; margin-bottom: 0;"><b>yasir@beon.co.id</b></h4>
-														<a class="btn btn-success btn-xs float-xs-right float-md-none" href="#" style="margin-top: 3px;">Modify Email</a>
-													</div>
-												</div>
-
-											</div>
-										</div>
-										<!-- Subject -->
+										<!-- SMS Content -->
 										<div class="row">
 											<div class="col-md-12">
 												<div class="form-group">
-													<label for="exampleInputEmail1"> Subject </label>
-													<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email Subject">
+													<label for="exampleInputEmail1"> Message</label>
+													<textarea class="form-control text-area-responsive margin-bottom-10" name="message" rows="10" cols="70" placeholder="Type Your Message Here ..."></textarea>
 												</div>
 											</div>
 										</div>
-										<!-- Email Content -->
-										<div class="row">
-											<div class="col-md-12">
-												<div class="form-group">
-													<label for="exampleInputEmail1"> Content</label>
-													<a  class="btn btn-primary btn-xs float-xs-right float-md-none margin-left-10" href="#">Edit Content</a>
-													<div class="center border-light-grey margin-top-10">
-														<img src="assets/images/layout-1.jpg" class="img-responsive">
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- Email Schedule -->
+										<!-- SMS Schedule -->
 										<div class="row">
 											<div class="col-md-12">
 												<label> Delivery Schedule </label><br>
@@ -194,10 +280,10 @@
 	<!-- end: SETTINGS -->
 </div>
 
-<?php include 'modal/add-from-list-email.php'; ?>
-<?php include 'modal/one-by-one-email.php'; ?>
-<?php include 'modal/import-email.php'; ?>
-<?php include 'modal/copy-paste-email.php'; ?>
+<?php include 'modal/add-from-list.php'; ?>
+<?php include 'modal/one-by-one.php'; ?>
+<?php include 'modal/import.php'; ?>
+<?php include 'modal/copy-paste.php'; ?>
 
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
