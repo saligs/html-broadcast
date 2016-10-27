@@ -107,6 +107,25 @@
 													<td>Muklis</td>
 													<td>saifulmuklis@gmail.com</td>
 													<td>08556456334</td>
+													<td>
+														<div class="btn-group">
+														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
+														<ul class="dropdown-menu" role="menu">
+															<li role="presentation" class="dropdown-header">
+																Choose Method
+															</li>
+															<li>
+																<a href="broadcast_sms.php"> Add to Group</a>
+															</li>
+															<li>
+																<a href="broadcast_email.php"> SMS Broadcast</a>
+															</li>
+															<li>
+																<a href="broadcast_email.php"> Email Broadcast</a>
+															</li>
+														</ul>
+													</div>
+													</td>
 												</tr>
 												<tr>
 													<td width="1%">
@@ -120,6 +139,25 @@
 													<td>Stya</td>
 													<td>andikastya@gmail.com</td>
 													<td>08956789643</td>
+													<td>
+														<div class="btn-group">
+														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
+														<ul class="dropdown-menu" role="menu">
+															<li role="presentation" class="dropdown-header">
+																Choose Method
+															</li>
+															<li>
+																<a href="broadcast_sms.php"> Add to Group</a>
+															</li>
+															<li>
+																<a href="broadcast_email.php"> SMS Broadcast</a>
+															</li>
+															<li>
+																<a href="broadcast_email.php"> Email Broadcast</a>
+															</li>
+														</ul>
+													</div>
+													</td>
 												</tr>
 												<tr>
 													<td width="1%">
@@ -133,6 +171,25 @@
 													<td>Suriawan</td>
 													<td>tofasuriawan@gmail.com</td>
 													<td>08956565454</td>
+													<td>
+														<div class="btn-group">
+														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
+														<ul class="dropdown-menu" role="menu">
+															<li role="presentation" class="dropdown-header">
+																Choose Method
+															</li>
+															<li>
+																<a href="broadcast_sms.php"> Add to Group</a>
+															</li>
+															<li>
+																<a href="broadcast_email.php"> SMS Broadcast</a>
+															</li>
+															<li>
+																<a href="broadcast_email.php"> Email Broadcast</a>
+															</li>
+														</ul>
+													</div>
+													</td>
 												</tr>
 											</table>
 										</div>
