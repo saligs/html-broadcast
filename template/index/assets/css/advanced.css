@@ -59,6 +59,10 @@ hr.onepixel {
     margin-bottom: 20px;
 }
 
+.icon-width{
+	width: 100px;
+}
+
 @media (max-width: 600px){
 	.posisi {
 		float: left !important;
