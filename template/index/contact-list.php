@@ -29,7 +29,7 @@
 					<h4 class="mainTitle no-margin">Page Broadcast List</h4>
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="dashboard.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="dashboard.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
 							Dashboard

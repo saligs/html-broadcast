@@ -32,7 +32,7 @@
 					<a href="dashboard.php"><h4 class="mainTitle no-margin">Choose Participant  &nbsp;  <i class="fa fa-angle-right"></i>&nbsp; Copy Paste  &nbsp; <i class="fa fa-angle-right"></i>&nbsp;Result Data</h4></a>
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
 							Dashboard

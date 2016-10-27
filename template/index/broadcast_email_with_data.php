@@ -32,7 +32,7 @@
 
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
 							Email Broadcast
