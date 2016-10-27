@@ -26,20 +26,8 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-<<<<<<< HEAD
-					<h4 class="mainTitle no-margin">Welcome to Packet</h4>
-					<span class="mainDescription">overview &amp; stats </span>
-					<!-- <ul class="pull-right breadcrumb">
-						<li>
-							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
-						</li>
-						<li>
-							Dashboard
-						</li>
-					</ul> -->
-=======
 					<h4 class="mainTitle no-margin">Dashboard</h4>
->>>>>>> 6ea637a80260f78eff5e2319e79f1fc741abbe62
+					<span class="mainDescription">Welcome to Broadcast</span>
 				</div>
 				<!-- end: BREADCRUMB -->
 				<div class="container padding-top-30">
