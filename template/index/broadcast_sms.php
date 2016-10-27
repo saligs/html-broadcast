@@ -50,7 +50,7 @@
 												<div class="row">
 													<div class="col-md-6">
 														<div class="panel-heading">
-															<h2 class="border-bottom padding-bottom-15"><b>Choose Your Participant</b></h2>
+															<h4 class="border-bottom padding-bottom-15">Choose <b>Your Participant</b></h4>
 														</div>
 													</div>
 												</div>
@@ -194,7 +194,10 @@
 
 												<div class="row">
 													<div class="col-md-6">
-														<div class="panel-heading"><h2 class="border-bottom padding-bottom-15 margin-bottom-20 "><b>Write Message Content</b></h2></div>
+														<div class="panel-heading">
+															<h4 class="border-bottom padding-bottom-15 margin-bottom-20 ">Write <b>Message Content</b>
+															</h4>
+														</div>
 													</div>
 												</div>
 

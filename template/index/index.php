@@ -44,8 +44,13 @@
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
 									<div class="text-center padding-20"><i class="fa fa-file-text-o size-60 grey-icon"></i>
+<<<<<<< HEAD
 										<h2>You have no Broadcast</h2>
 										<a href="broadcast_sms.php" class="underline">Send SMS Broadcast</a> or <a href="broadcast_email.php" class="underline">Send Email Broadcast</a> to get started.
+=======
+										<h2>You have no broadcast</h2>
+										<a href="broadcast_sms.php" class="underline">Send Campaign SMS</a> or <a href="broadcast_email.php" class="underline">Send Campaign Email</a> to get started.
+>>>>>>> a56c84982e45ae6af5d09ee3922280badd8d6159
 									</div>
 								</div>
 							</div>
