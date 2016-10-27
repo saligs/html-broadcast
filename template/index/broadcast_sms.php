@@ -290,20 +290,8 @@
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
 <script src="assets/js/index.js"></script>
-<script>
-	jQuery(document).ready(function() {
-		Main.init();
-		Index.init();
-	});
-</script>
-<script>
-	$(function() {
-		$( "#tanggal" ).datepicker({
-			changeMonth: true,
-			changeYear: true
-		});
-	});
-</script>
+
+	
 <!-- end: JavaScript Event Handlers for this page -->
 </body>
 </html>

@@ -23,7 +23,7 @@
                 </div>
             </li>
             <li>
-                <a href="#" class="toggle-fullscreen"> <i class="fa fa-expand expand-off"></i><i class="fa fa-compress expand-on"></i></a>
+               <a class="navbar-brand" href="index.html"> <img src="assets/images/broadcast_logo.png" alt="Packet"> </a>
             </li>
             <li style="display: none !important;">
                 <form role="search" class="navbar-form main-search">
