@@ -26,14 +26,14 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Broadcast History</h4>
+					<h4 class="mainTitle no-margin">Contact List</h4>
 					<span class="mainDescription">Check your history for your better future</span>
 					<ul class="pull-right breadcrumb">
 						<li>
 							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
-							Dashboard
+							Contact List
 						</li>
 					</ul>
 				</div>
@@ -54,39 +54,41 @@
 														</div>
 													</td>
 													<td colspan="3">
-														Sort By
-														<div class="btn-group">
-															<button type="button" class="btn btn-light-grey">
-																Name
-															</button>
-															<button type="button" class="btn btn-light-grey dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-																<span class="fa fa-angle-down"></span>
-															</button>
-															<ul class="dropdown-menu" role="menu">
-																<li role="presentation" class="dropdown-header">
-																	Dropdown header
-																</li>
-																<li>
-																	<a href="#"> Action </a>
-																</li>
-																<li>
-																	<a href="#"> Another action </a>
-																</li>
-																<li>
-																	<a href="#"> Something else here </a>
-																</li>
-																<li class="divider"></li>
-																<li role="presentation" class="dropdown-header">
-																	Dropdown header
-																</li>
-																<li>
-																	<a href="#"> Separated link </a>
-																</li>
-															</ul>
-														</div>
-														<a href="#" class="btn btn-light-grey"><i class="fa fa-trash"></i> Delete</a>
+														<a href="#" class="btn underline">Action</a>
 													</td>
 													<td colspan="5">
+														<div class="pull-right">
+															Sort By
+															<div class="btn-group">
+																<button type="button" class="btn btn-light-grey">
+																	Name
+																</button>
+																<button type="button" class="btn btn-light-grey dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+																	<span class="fa fa-angle-down"></span>
+																</button>
+																<ul class="dropdown-menu" role="menu">
+																	<!-- <li role="presentation" class="dropdown-header">
+																		Dropdown header
+																	</li>
+																	<li>
+																		<a href="#"> Action </a>
+																	</li>
+																	<li>
+																		<a href="#"> Another action </a>
+																	</li>
+																	<li>
+																		<a href="#"> Something else here </a>
+																	</li>
+																	<li class="divider"></li>
+																	<li role="presentation" class="dropdown-header">
+																		Dropdown header
+																	</li>
+																	<li>
+																		<a href="#"> Separated link </a>
+																	</li> -->
+																</ul>
+															</div>
+														</div>
 														<div class="col-md-6 pull-right">
 															<span class="input-icon input-icon-right">
 																<input type="text" placeholder="Search..." id="form-field-17" class="form-control">
@@ -102,30 +104,12 @@
 															<label for="checkbox2"></label>
 														</div>
 													</td>
-													<td>1</td>
-													<td>Saiful</td>
-													<td>Muklis</td>
-													<td>saifulmuklis@gmail.com</td>
-													<td>08556456334</td>
-													<td>
-														<div class="btn-group">
-														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
-														<ul class="dropdown-menu" role="menu">
-															<li role="presentation" class="dropdown-header">
-																Choose Method
-															</li>
-															<li>
-																<a href="broadcast_sms.php"> Add to Group</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> SMS Broadcast</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> Email Broadcast</a>
-															</li>
-														</ul>
-													</div>
-													</td>
+													<td class="underline">1</td>
+													<td class="underline">Saiful</td>
+													<td class="underline">Muklis</td>
+													<td class="underline">saifulmuklis@gmail.com</td>
+													<td class="underline text-right">08556456334</td>
+													
 												</tr>
 												<tr>
 													<td width="1%">
@@ -134,30 +118,12 @@
 															<label for="checkbox3"></label>
 														</div>
 													</td>
-													<td>2</td>
-													<td>Andika</td>
-													<td>Stya</td>
-													<td>andikastya@gmail.com</td>
-													<td>08956789643</td>
-													<td>
-														<div class="btn-group">
-														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
-														<ul class="dropdown-menu" role="menu">
-															<li role="presentation" class="dropdown-header">
-																Choose Method
-															</li>
-															<li>
-																<a href="broadcast_sms.php"> Add to Group</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> SMS Broadcast</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> Email Broadcast</a>
-															</li>
-														</ul>
-													</div>
-													</td>
+													<td class="underline">2</td>
+													<td class="underline">Andika</td>
+													<td class="underline">Stya</td>
+													<td class="underline">andikastya@gmail.com</td>
+													<td class="underline text-right">08956789643</td>
+													
 												</tr>
 												<tr>
 													<td width="1%">
@@ -166,30 +132,40 @@
 															<label for="checkbox4"></label>
 														</div>
 													</td>
-													<td>3</td>
-													<td>Tofa</td>
-													<td>Suriawan</td>
-													<td>tofasuriawan@gmail.com</td>
-													<td>08956565454</td>
-													<td>
-														<div class="btn-group">
-														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
-														<ul class="dropdown-menu" role="menu">
-															<li role="presentation" class="dropdown-header">
-																Choose Method
-															</li>
-															<li>
-																<a href="broadcast_sms.php"> Add to Group</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> SMS Broadcast</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> Email Broadcast</a>
-															</li>
-														</ul>
-													</div>
+													<td class="underline">3</td>
+													<td class="underline">Tofa</td>
+													<td class="underline">Suriawan</td>
+													<td class="underline">tofasuriawan@gmail.com</td>
+													<td class="underline text-right">08956565454</td>
+													
+												</tr>
+												<tr>
+													<td width="1%">
+														<div class="checkbox clip-check check-primary checkbox-inline">
+															<input type="checkbox" id="checkbox4" value="1">
+															<label for="checkbox4"></label>
+														</div>
 													</td>
+													<td class="underline">4</td>
+													<td class="underline">Gilas</td>
+													<td class="underline">Salig</td>
+													<td class="underline">anda@beon.com</td>
+													<td class="underline text-right">08324143523</td>
+													
+												</tr>
+												<tr>
+													<td width="1%">
+														<div class="checkbox clip-check check-primary checkbox-inline">
+															<input type="checkbox" id="checkbox4" value="1">
+															<label for="checkbox4"></label>
+														</div>
+													</td>
+													<td class="underline">5</td>
+													<td class="underline">Ariq</td>
+													<td class="underline">Nugraha</td>
+													<td class="underline">mochariqnugraha@yahoo.co.id</td>
+													<td class="underline text-right">08931365433</td>
+													
 												</tr>
 											</table>
 										</div>
