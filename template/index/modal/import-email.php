@@ -20,7 +20,7 @@
 				<button type="button" class="btn btn-primary btn-o" data-dismiss="modal">
 					Close
 				</button>
-				<a href="broadcast_sms_with_data.php" class="btn btn-primary">
+				<a href="broadcast_email_with_data.php" class="btn btn-primary">
 					Save changes
 				</a>
 			</div>

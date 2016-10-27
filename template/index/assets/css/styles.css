@@ -15915,6 +15915,9 @@ figure.effect-goliath:hover p {
 .table-last-20-percent tbody td:last-child {
   width: 20%;
 }
+.table-last-25-percent tbody td:last-child {
+  width: 25%;
+}
 
 .bc-block-item {
   float: left;
@@ -15933,3 +15936,49 @@ figure.effect-goliath:hover p {
 
 .margin-top-6 { margin-top: 6px; }
 .text-like-success { color: #5cb85c; }
+
+.modal-add-from-list.modal-aside,
+.modal-one-by-one.modal-aside,
+.modal-import.modal-aside,
+.modal-copy-paste.modal-aside,
+.modal-custom.modal-aside {
+  background-color: #ffffff;
+  padding: 20% 10%;
+}
+
+.modal-add-from-list.modal-aside.vertical.top.in .modal-dialog,
+.modal-one-by-one.modal-aside.vertical.top.in .modal-dialog,
+.modal-import.modal-aside.vertical.top.in .modal-dialog,
+.modal-copy-paste.modal-aside.vertical.top.in .modal-dialog,
+.modal-custom.modal-aside.vertical.top.in .modal-dialog{
+  padding: 0;
+  height: 100%;
+}
+
+.modal-add-from-list .modal-body,
+.modal-one-by-one .modal-body,
+.modal-import .modal-body,
+.modal-copy-paste .modal-body,
+.modal-custom .modal-body {
+  overflow-y: auto;
+  height: calc(100% - 50px - 64px);
+}
+
+.modal-add-from-list .modal-footer,
+.modal-one-by-one .modal-footer,
+.modal-import .modal-footer,
+.modal-copy-paste .modal-footer,
+.modal-custom .modal-footer {
+  max-height: 64px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.modal-add-from-list .modal-header,
+.modal-one-by-one .modal-header,
+.modal-import .modal-header,
+.modal-copy-paste .modal-header,
+.modal-custom .modal-header {
+  max-height: 50px;
+}

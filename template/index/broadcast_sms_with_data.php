@@ -27,15 +27,15 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Email Broadcast</h4>
-					<span class="mainDescription">Send your broadcast via email</span>
+					<h4 class="mainTitle no-margin">SMS Broadcast</h4>
+					<span class="mainDescription">Send your broadcast via sms</span>
 
 					<ul class="pull-right breadcrumb">
 						<li>
 							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
-							Email Broadcast
+							SMS Broadcast
 						</li>
 					</ul>
 				</div>
@@ -163,76 +163,46 @@
 													</div>
 												</div>
 												<div class="col-md-6 ">
-												<div class="pull-right">
-													<ul class="pagination no-margin margin-bottom-10">
-														<li>
-															<a href="#"> <i class="ti-arrow-left"></i> </a>
-														</li>
-														<li>
-															<a href="#"> 1 </a>
-														</li>
-														<li>
-															<a href="#"> 2 </a>
-														</li>
-														<li>
-															<a href="#"> 3 </a>
-														</li>
-														<li>
-															<a href="#"> 4 </a>
-														</li>
-														<li>
-															<a href="#"> <i class="ti-arrow-right"></i> </a>
-														</li>
-													</ul>
+													<div class="pull-right">
+														<ul class="pagination no-margin margin-bottom-10">
+															<li>
+																<a href="#"> <i class="ti-arrow-left"></i> </a>
+															</li>
+															<li>
+																<a href="#"> 1 </a>
+															</li>
+															<li>
+																<a href="#"> 2 </a>
+															</li>
+															<li>
+																<a href="#"> 3 </a>
+															</li>
+															<li>
+																<a href="#"> 4 </a>
+															</li>
+															<li>
+																<a href="#"> <i class="ti-arrow-right"></i> </a>
+															</li>
+														</ul>
+													</div>
 												</div>
-											</div>
 											</div>
 										</div>
 									</div>
 
 									<!-- Setting -->
-									<h5 class="over-title margin-bottom-15">Email <span class="text-bold">Configuration</span></h5>
+									<h5 class="over-title margin-bottom-15">Write <span class="text-bold">Message Content</span></h5>
 									<div class="padding-30 border-light-grey">
-										<!-- Email From -->
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label for="exampleInputEmail1"> From Name </label>
-													<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-												</div>
-											</div>
-											<div class="col-md-6">
-												<div class="form-group">
-													<label for="exampleInputEmail1"> From Email </label>
-													<div class="clearfix">
-														<h4 class="pull-left margin-right-10" style="margin-top: 5px; margin-bottom: 0;"><b>yasir@beon.co.id</b></h4>
-														<a class="btn btn-success btn-xs float-xs-right float-md-none" href="#" style="margin-top: 3px;">Modify Email</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- Subject -->
+										<!-- SMS Content -->
 										<div class="row">
 											<div class="col-md-12">
 												<div class="form-group">
-													<label for="exampleInputEmail1"> Subject </label>
-													<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email Subject">
+													<label for="exampleInputEmail1"> Message</label>
+													<textarea class="form-control text-area-responsive margin-bottom-10" name="message" rows="10" cols="70" placeholder="Type Your Message Here ..."></textarea>
 												</div>
 											</div>
 										</div>
-										<!-- Email Content -->
-										<div class="row">
-											<div class="col-md-12">
-												<div class="form-group">
-													<label for="exampleInputEmail1"> Content</label>
-													<a  class="btn btn-primary btn-xs float-xs-right float-md-none margin-left-10" href="#">Edit Content</a>
-													<div class="center border-light-grey margin-top-10">
-														<img src="assets/images/layout-1.jpg" class="img-responsive">
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- Email Schedule -->
+										<!-- SMS Schedule -->
 										<div class="row">
 											<div class="col-md-12">
 												<label> Delivery Schedule </label><br>
@@ -285,7 +255,7 @@
 											</button>
 
 											<button type="button" class="btn btn-wide btn-primary margin-bottom-10">
-												<i class="fa fa-location-arrow"></i> Create Broadcast
+												<i class="fa fa-location-arrow"></i> Send Now
 											</button>
 										</div>
 									</div>
@@ -309,6 +279,12 @@
 	<?php include 'include/settings-panel.php'; ?>
 	<!-- end: SETTINGS -->
 </div>
+
+<?php include 'modal/add-from-list.php'; ?>
+<?php include 'modal/one-by-one.php'; ?>
+<?php include 'modal/import.php'; ?>
+<?php include 'modal/copy-paste.php'; ?>
+
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
@@ -320,10 +296,12 @@
 	});
 </script>
 <script>
-	$(function() {
-		$( "#tanggal" ).datepicker({
-			changeMonth: true,
-			changeYear: true
+	$(document).ready(function(){
+		$("#radio1").click(function(){
+			$(".hide-show").hide("slow");
+		});
+		$("#radio2").click(function(){
+			$(".hide-show").show("slow");
 		});
 	});
 </script>

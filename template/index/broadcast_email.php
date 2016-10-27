@@ -10,6 +10,7 @@
 	<title>Packet - Responsive Admin Template</title>
 	<?php include 'include/main-head.php'; ?>
 	<link rel="stylesheet" href="assets/css/choose-participant.css">
+	<link rel="stylesheet" href="assets/css/imancss/selectize.css">
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" />
 </head>
@@ -57,7 +58,7 @@
 											<center>
 												<div class="button-four">
 
-													<button type="button" class="margin-bottom-10 btn btn-wide btn-o btn-primary" data-toggle="modal" data-target=".modal-add-from-list">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-add-from-list">
 														<i class="fa fa-plus"></i> Add From List
 													</button>
 													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-one-by-one">
@@ -72,12 +73,6 @@
 
 												</div>
 											</center>
-										</div>
-										<div class="modal-all-container">
-											<?php include 'modal-choose-participant.php'; ?>
-											<?php include 'modal-choose-participant-one.php'; ?>
-											<?php include 'modal-import.php'; ?>
-											<?php include 'modal-copas.php'; ?>
 										</div>
 									</div>
 
@@ -96,8 +91,16 @@
 												<div class="form-group">
 													<label for="exampleInputEmail1"> From Email </label>
 													<div class="clearfix">
-														<h4 class="pull-left margin-right-10" style="margin-top: 5px; margin-bottom: 0;"><b>yasir@beon.co.id</b></h4>
-														<a class="btn btn-success btn-xs float-xs-right float-md-none" href="#" style="margin-top: 3px;">Modify Email</a>
+														<div class="col-md-8 no-padding">
+															<select id="select-beast1" class="demo-default" placeholder="Select an email">
+																<option value="">Select an email</option>
+																<option value="4">thomas@edison</option>
+																<option value="3">nikola@tesla</option>
+															</select>
+														</div>
+														<button type="button" class="btn btn-success pull-right" data-toggle="modal" data-target=".modal-add-new-email">
+															<i class="fa fa-plus"></i> Add New Email
+														</button>
 													</div>
 												</div>
 
@@ -202,19 +205,28 @@
 	<!-- end: SETTINGS -->
 </div>
 
-<?php include 'modal/add-from-list.php'; ?>
-<?php include 'modal/one-by-one.php'; ?>
-<?php include 'modal/import.php'; ?>
-<?php include 'modal/copy-paste.php'; ?>
+<?php include 'modal/add-from-list-email.php'; ?>
+<?php include 'modal/one-by-one-email.php'; ?>
+<?php include 'modal/import-email.php'; ?>
+<?php include 'modal/copy-paste-email.php'; ?>
+<?php include 'modal/add-new-email.php'; ?>
 
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
+<script src="assets/js/selectize.js"></script>
 <!-- start: JavaScript Event Handlers for this page -->
 <script src="assets/js/index.js"></script>
 <script>
 	jQuery(document).ready(function() {
 		Main.init();
 		Index.init();
+	});
+</script>
+<script>
+	var textAreas = document.getElementsByTagName('textarea');
+
+	Array.prototype.forEach.call(textAreas, function(elem) {
+		elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
 	});
 </script>
 <script>
@@ -225,6 +237,16 @@
 		$("#radio2").click(function(){
 			$(".hide-show").show("slow");
 		});
+	});
+</script>
+<script>
+	$('#select-beast1').selectize({
+		create: false,
+		sortField: {
+			field: 'text',
+			direction: 'asc'
+		},
+		dropdownParent: 'body'
 	});
 </script>
 <!-- end: JavaScript Event Handlers for this page -->
