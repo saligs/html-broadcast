@@ -52,16 +52,16 @@
 										<div class="table-contact-container">
 											<div class="row">
 												<div class="col-md-8">
-													<button type="button" class="margin-bottom-10 btn btn-wide btn-o btn-primary">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-add-from-list">
 														<i class="fa fa-plus"></i> Add From List
 													</button>
-													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-one-by-one">
 														<i class="fa fa-location-arrow"></i> One by one
 													</button>
-													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-import">
 														<i class="fa fa-download"></i> Import
 													</button>
-													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-copy-paste">
 														<i class="fa fa-copy"></i> Copy paste
 													</button>
 												</div>
