@@ -28,6 +28,7 @@
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
 					<h4 class="mainTitle no-margin">Broadcast SMS</h4>
+					<span class="mainDescription">Send your broadcast via sms</span>
 					<ul class="pull-right breadcrumb">
 						<li>
 							<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
