@@ -1,0 +1,18 @@
+<!-- start: BREADCRUMB -->
+<div class="breadcrumb-wrapper">
+    <h4 class="mainTitle no-margin"><%= title %></h4>
+    <span class="mainDescription"><%= subTitle %> </span>
+    <ul class="pull-right breadcrumb">
+        <% if(list){ %>
+            <% _.each(list, function(e, i){ %>
+            <li>
+                <a href="<%= e.href %>"><i class="<%= e.icon %> margin-right-5 text-large text-dark"></i><%= e.label %></a>
+            </li>
+            <% }); %>
+        <% } %>
+        <li>
+            <%= active %>
+        </li>
+    </ul>
+</div>
+<!-- end: BREADCRUMB -->

@@ -1,0 +1,51 @@
+#list-participant {
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+#list-participant > .row {
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+#list-participant .checkbox {
+
+}
+
+#list-participant h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#list-participant p {
+    margin-bottom: 0;
+}
+
+#list-participant p span {
+    display: block;
+    color: #b5b5b5;
+}
+
+#list-participant .subscribers {
+
+}
+
+#list-participant .subscribers span {
+    font-weight: bold;
+}
+
+.clip-check label {
+    margin-right: 0;
+    padding-left: 18px !important;
+}
+
+.clip-check label:after {
+    left: 0;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
