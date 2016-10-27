@@ -276,12 +276,12 @@
 
 									<div class="pull-right margin-top-20">
 										<div class="button-three">
-											<button type="button" class="btn btn-wide btn-o btn-primary margin-bottom-10">
-												<i class="fa fa-plus"></i> Save as Draft
+											<button type="button" class="btn btn-wide btn-o btn-default margin-bottom-10">
+												Save as Draft
 											</button>
 
-											<button type="button" class="btn btn-wide btn-o btn-primary margin-bottom-10">
-												<i class="fa fa-file-text-o"></i> Test Content
+											<button type="button" class="btn btn-wide btn-o btn-default margin-bottom-10">
+												Test Content
 											</button>
 
 											<button type="button" class="btn btn-wide btn-primary margin-bottom-10">
