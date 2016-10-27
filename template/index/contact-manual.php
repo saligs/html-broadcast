@@ -28,158 +28,115 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<a href="dashboard.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
-					<ul class="pull-right breadcrumb">
-						<li>
-							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
-						</li>
-						<li>
-							Dashboard
-						</li>
-					</ul>
+					<a href="index.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
 				</div>
 				<!-- end: BREADCRUMB -->
 				<!-- start: FIRST SECTION -->
-				<div class="container padding-left-30 padding-right-30 padding-top-30">
-					<div class="row">
-						<div class="panel-heading"><h5 class="over-title margin-bottom"> Add Your <span class="text-bold">Contact List Manually</span></h5></div>
-					</div>
-				</div>
-				<div class="container-fluid padding-bottom-10">
+				<div class="container-fluid container-fullw padding-bottom-10">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
-								<div class="panel-body padding-top-50 padding-bottom-50">
-									<div class="row margin-bottom-20">
-										<div class="col-md-4">
-											<select id="select-beast1" class="demo-default" placeholder="Select a person...">
-												<option value="">Select a Name</option>
-												<option value="4">Thomas Edison</option>
-												<option value="1">Phone</option>
-												<option value="3">Nikola Tesla</option>
-												<option value="5">Name</option>
-											</select>
+								<div class="panel-body">
+									<!-- Field -->
+									<h5 class="over-title margin-bottom"> Add Your <span class="text-bold">Contact List Manually</span></h5>
+									<div class="padding-30 border-light-grey">
+										<!-- Primary -->
+										<div class="row margin-bottom-20">
+											<div class="col-md-5">
+												<select id="select-beast1" class="demo-default" placeholder="Select a person...">
+													<option value="5" selected>Email</option>
+												</select>
+											</div>
+											<div class="col-md-5">
+												<input type="text" class="form-control" placeholder="Your Text Field">
+											</div>
+											<div class="col-md-2">
+												<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
+											</div>
 										</div>
-										<div class="col-md-4">
-											<input type="text" class="form-control" placeholder="Your Text Field">
+										<div class="row margin-bottom-20">
+											<div class="col-md-5">
+												<select id="select-beast2" class="demo-default" placeholder="Select a person...">
+													<option value="5" selected>Phone</option>
+												</select>
+											</div>
+											<div class="col-md-5">
+												<input type="text" class="form-control" placeholder="Your Text Field">
+											</div>
+											<div class="col-md-2">
+												<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
+											</div>
 										</div>
-										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
+										<div class="row margin-bottom-20 add-field" style="display: none;">
+											<div class="col-md-5">
+												<select id="select-beast3" class="demo-default" placeholder="Select a person...">
+													<option value="">Select a Name</option>
+													<option value="4">Thomas Edison</option>
+													<option value="1">Phone</option>
+													<option value="3">Nikola Tesla</option>
+													<option value="5">Name</option>
+												</select>
+											</div>
+											<div class="col-md-5">
+												<input type="text" class="form-control" placeholder="Your Text Field">
+											</div>
+											<div class="col-md-2">
+												<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
+											</div>
 										</div>
-									</div>
-									<div class="row margin-bottom-20">
-										<div class="col-md-4">
-											<select id="select-beast2" class="demo-default" placeholder="Select a person...">
-												<option value="">Select a Name</option>
-												<option value="4">Thomas Edison</option>
-												<option value="1">Phone</option>
-												<option value="3">Nikola Tesla</option>
-												<option value="5">Name</option>
-											</select>
-										</div>
-										<div class="col-md-4">
-											<input type="text" class="form-control" placeholder="Your Text Field">
-										</div>
-										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
-										</div>
-									</div>
-									<div class="row margin-bottom-20">
-										<div class="col-md-4">
-											<select id="select-beast3" class="demo-default" placeholder="Select a person...">
-												<option value="">Select a Name</option>
-												<option value="4">Thomas Edison</option>
-												<option value="1">Phone</option>
-												<option value="3">Nikola Tesla</option>
-												<option value="5">Name</option>
-											</select>
-										</div>
-										<div class="col-md-4">
-											<input type="text" class="form-control" placeholder="Your Text Field">
-										</div>
-										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
-										</div>
-									</div>
-									<div class="row margin-bottom-20">
-										<div class="col-md-4">
-											<select id="select-beast4" class="demo-default" placeholder="Select a person...">
-												<option value="">Select a Name</option>
-												<option value="4">Thomas Edison</option>
-												<option value="1">Phone</option>
-												<option value="3">Nikola Tesla</option>
-												<option value="5">Name</option>
-											</select>
-										</div>
-										<div class="col-md-4">
-											<input type="text" class="form-control" placeholder="Your Text Field">
-										</div>
-										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
+										<div class="row">
+											<div class="col-md-10">
+												<div class="underline cursor-pointer pull-right" onclick="$('.add-field').show()">Add Field</div>
+											</div>
+											<div class="col-md-2">
+
+											</div>
 										</div>
 									</div>
-									<div class="row margin-bottom-20">
-										<div class="col-md-4">
-											<select id="select-beast5" class="demo-default" placeholder="Select a person...">
-												<option value="">Select a Name</option>
-												<option value="4">Thomas Edison</option>
-												<option value="1">Phone</option>
-												<option value="3">Nikola Tesla</option>
-												<option value="5">Name</option>
-											</select>
-										</div>
-										<div class="col-md-4">
-											<input type="text" class="form-control" placeholder="Your Text Field">
-										</div>
-										<div class="col-md-4">
-											<div class="padding-top-10"><a href="#"><u>Delete</u></a></div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-7"></div>
-										<div class="col-md-5">
-											<a href="#" class="underline">Add Field</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="panel panel-white no-radius">
-								<div class="panel-body padding-top-50 padding-bottom-50">
-									<div class="row">
-										<div class="col-md-6">
-											<div class="row">
-												<div class="col-md-1">
-													<strong>Grup</strong>
+
+									<!-- Additional -->
+									<div class="optional-box margin-top-15 padding-left-30 padding-right-30" style="display: none;">
+										<p>You can also add group and tag to new contact</p>
+										<div class="row">
+											<div class="col-md-5">
+												<div class="row">
+													<div class="col-md-2">
+														<div class="margin-top-8 text-bold">Grup</div>
+													</div>
+													<div class="col-md-10">
+														<select id="select-beast-option1" class="demo-default" placeholder="Select a person...">
+															<option value="">Select a Name</option>
+															<option value="4">option</option>
+															<option value="1">option</option>
+															<option value="3">option</option>
+															<option value="5">option</option>
+														</select>
+													</div>
 												</div>
-												<div class="col-md-11">
-													<select id="select-beast-option1" class="demo-default" placeholder="Select a person...">
-														<option value="">Select a Name</option>
-														<option value="4">option</option>
-														<option value="1">option</option>
-														<option value="3">option</option>
-														<option value="5">option</option>
-													</select>
+											</div>
+											<div class="col-md-5">
+												<div class="row">
+													<div class="col-md-2">
+														<div class="margin-top-8 text-bold">Tag</div>
+													</div>
+													<div class="col-md-10">
+														<select id="select-beast-option2" class="demo-default" placeholder="Select a person...">
+															<option value="">Select a Name</option>
+															<option value="4">option</option>
+															<option value="1">option</option>
+															<option value="3">option</option>
+															<option value="5">option</option>
+														</select>
+													</div>
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6">
-											<div class="row">
-												<div class="col-md-1">
-													<strong>Tag</strong>
-												</div>
-												<div class="col-md-11">
-													<select id="select-beast-option2" class="demo-default" placeholder="Select a person...">
-														<option value="">Select a Name</option>
-														<option value="4">option</option>
-														<option value="1">option</option>
-														<option value="3">option</option>
-														<option value="5">option</option>
-													</select>
-												</div>
-											</div>
-											<a href="index.php" class="btn btn-primary margin-top-10 pull-right">Save</a>
-										</div>
 									</div>
+
+									<!-- Optional & Save -->
+
+									<a href="index.php" class="btn btn-primary margin-top-20 pull-right">Save Contact</a>
+									<button class="btn btn-o btn-primary margin-top-20 margin-right-10 pull-right" onclick="$(this).hide(); $('.optional-box').show();">Show Other Option</button>
 								</div>
 							</div>
 						</div>

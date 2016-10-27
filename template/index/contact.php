@@ -26,7 +26,7 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Contact</h4>
+					<h4 class="mainTitle no-margin">New Contact</h4>
 					<span class="mainDescription">Convert your important person into your contact</span>
 
 					<ul class="pull-right breadcrumb">

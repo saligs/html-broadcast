@@ -42,16 +42,24 @@
 			</ul>
 		</li>
 		<li class="">
-			<a href="contact.php">
+			<a href="javascript:void(0)">
 				<div class="item-content">
 					<div class="item-media">
 						<i class="fa fa-user"></i>
 					</div>
 					<div class="item-inner">
-						<span class="title">Contact</span>
+						<span class="title">Contact </span><i class="icon-arrow"></i>
 					</div>
 				</div>
 			</a>
+			<ul class="sub-menu">
+				<li>
+					<a href="contact.php"><span class="title">Add New</span></a>
+				</li>
+				<li>
+					<a href="contact-list.php"><span class="title">List</span></a>
+				</li>
+			</ul>
 		</li>
 		<li class="">
 			<a href="group-list.php">

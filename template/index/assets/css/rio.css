@@ -22,3 +22,22 @@
 a > h4:hover {
     text-decoration: underline;
 }
+
+.trans {
+  background-color: transparent;
+}
+
+.btn-bro {
+    background-color: #f97e05;
+    border-color: #f97e05;
+    color: #ffffff;
+}
+
+.btn-o {
+    background: none;
+}
+
+.btn-bro.btn-o {
+    border: 1px solid #f97e05;
+    color: #f97e05;
+}

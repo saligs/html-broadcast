@@ -27,15 +27,7 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<a href="dashboard.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
-					<ul class="pull-right breadcrumb">
-						<li>
-							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
-						</li>
-						<li>
-							Dashboard
-						</li>
-					</ul>
+					<a href="index.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
 				</div>
 				<!-- end: BREADCRUMB -->
 				<!-- start: FIRST SECTION -->
@@ -50,7 +42,7 @@
 							<div class="panel panel-white no-radius">
 								<div class="panel-body padding-top-50 padding-bottom-50">
 									<textarea name="" id="" cols="30" rows="10" class="form-control" placeholder=" Email Address... Firstname... Lastname...\n\n Email Address... Firstname... Lastname...\n\n Email Address... Firstname... Lastname...\n\n Email Address... Firstname... Lastname...\n"></textarea>
-									<a href="#" class="btn btn-primary pull-right margin-top-10">Save &amp; Next</a>
+									<a href="result.php" class="btn btn-primary pull-right margin-top-10">Save &amp; Next</a>
 								</div>
 							</div>
 						</div>

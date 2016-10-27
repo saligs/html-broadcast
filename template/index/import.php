@@ -27,15 +27,7 @@
 					<div class="wrap-content container" id="container">
 						<!-- start: BREADCRUMB -->
 						<div class="breadcrumb-wrapper">
-							<a href="dashboard.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
-							<ul class="pull-right breadcrumb">
-								<li>
-									<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
-								</li>
-								<li>
-									Dashboard
-								</li>
-							</ul>
+							<a href="index.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
 						</div>
 						<!-- end: BREADCRUMB -->
 						<!-- start: FIRST SECTION -->
