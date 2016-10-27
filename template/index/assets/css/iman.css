@@ -6,3 +6,8 @@
 	background-color: #1C2B36;
 	color: white;
 }
+
+.img-radius{
+   width: 64px;
+    border-radius: 50px;
+}
