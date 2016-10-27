@@ -11,6 +11,7 @@
 	<?php include 'include/main-head.php'; ?>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="assets/css/rio.css">
 </head>
 <!-- end: HEAD -->
 <body>
@@ -54,7 +55,7 @@
 														</div>
 													</td>
 													<td colspan="3">
-														<a href="#" class="btn underline">Action</a>
+														<button class="btn underline trans" data-toggle="modal" data-target=".modal-contact-list">Action</button>
 													</td>
 													<td colspan="5">
 														<div class="pull-right">
@@ -109,7 +110,6 @@
 													<td class="underline">Muklis</td>
 													<td class="underline">saifulmuklis@gmail.com</td>
 													<td class="underline text-right">08556456334</td>
-													
 												</tr>
 												<tr>
 													<td width="1%">
@@ -123,7 +123,6 @@
 													<td class="underline">Stya</td>
 													<td class="underline">andikastya@gmail.com</td>
 													<td class="underline text-right">08956789643</td>
-													
 												</tr>
 												<tr>
 													<td width="1%">
@@ -137,7 +136,6 @@
 													<td class="underline">Suriawan</td>
 													<td class="underline">tofasuriawan@gmail.com</td>
 													<td class="underline text-right">08956565454</td>
-													
 												</tr>
 												<tr>
 													<td width="1%">
@@ -151,7 +149,6 @@
 													<td class="underline">Salig</td>
 													<td class="underline">anda@beon.com</td>
 													<td class="underline text-right">08324143523</td>
-													
 												</tr>
 												<tr>
 													<td width="1%">
@@ -165,7 +162,6 @@
 													<td class="underline">Nugraha</td>
 													<td class="underline">mochariqnugraha@yahoo.co.id</td>
 													<td class="underline text-right">08931365433</td>
-													
 												</tr>
 											</table>
 										</div>
@@ -226,6 +222,8 @@
 	<?php include 'include/settings-panel.php'; ?>
 	<!-- end: SETTINGS -->
 </div>
+
+<?php include 'modal/modal-contact-list.php'; ?>
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
