@@ -10,7 +10,6 @@
 	<title>Packet - Responsive Admin Template</title>
 	<?php include 'include/main-head.php'; ?>
 	<link rel="stylesheet" href="assets/css/choose-participant.css">
-	<link rel="stylesheet" href="assets/css/imancss/selectize.css">
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" />
 </head>
@@ -48,16 +47,11 @@
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
 									<!-- Recipients -->
-									<h5 class="over-title margin-bottom-15">1. Choose <span class="text-bold">Your Receipents</span></h5>
-									<div class="padding-30 border-light-grey margin-bottom-20">
-										<div class="text-center">
-										<img src="assets/images/no-contact.png" class="icon-width padding-bottom-20" alt="">
-										</div>
-										<h3 class="text-center">You have no Receipents</h3>
-										<div class="container">
-											<center>
-												<div class="button-four">
-
+									<h5 class="over-title margin-bottom-15">Choose <span class="text-bold">Your Receipents</span></h5>
+									<div class="margin-bottom-20">
+										<div class="table-contact-container">
+											<div class="row">
+												<div class="col-md-8">
 													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-add-from-list">
 														<i class="fa fa-plus"></i> Add From List
 													</button>
@@ -70,14 +64,134 @@
 													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-copy-paste">
 														<i class="fa fa-copy"></i> Copy paste
 													</button>
-
 												</div>
-											</center>
+												<div class="col-md-4 pull-right">
+																		<span class="input-icon input-icon-right"> <input placeholder="Text Field" id="form-field-17" class="form-control" type="text">
+																		<i class="fa fa-search" ></i> </span>
+												</div>
+											</div>
+											<div class="row">
+												<div class="container">
+													<div class="table-responsive">
+														<table class="table table-hover" id="sample-table-1">
+															<thead>
+															<tr>
+																<th class="center">id</th>
+																<th>Email Address</th>
+																<th>First Name</th>
+																<th>Last Name</th>
+																<th>City</th>
+																<th>Phone</th>
+																<th>&nbsp;</th>
+															</tr>
+															</thead>
+															<tbody>
+															<tr>
+																<td class="center">1</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="underline">Unselected</a></td>
+															</tr>
+															<tr>
+																<td class="center">2</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="underline">Unselected</a></td>
+															</tr>
+															<tr>
+																<td class="center">3</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="underline">Unselected</a></td>
+															</tr>
+															<tr>
+																<td class="center">4</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="underline">Unselected</a></td>
+															</tr>
+															<tr>
+																<td class="center">5</td>
+																<td>Rifki Fardianzah@gmail.com</td>
+																<td>Rifki</td>
+																<td>Fardianzah</td>
+																<td>Malang</td>
+																<td>0856718920</td>
+																<td><a href="#" class="underline">Unselected</a></td>
+															</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-6">
+													<div class="dataTables_length">
+														<label>View</label>
+														<div class="clip-select inline-block">
+															<label><select aria-controls="sample_2" class=
+																"form-control input-sm m-wrap small" name="sample_2_length">
+																	<option value="5">
+																		5
+																	</option>
+																	<option value="10">
+																		10
+																	</option>
+																	<option value="15">
+																		15
+																	</option>
+																	<option value="20">
+																		20
+																	</option>
+																	<option value="-1">
+																		All
+																	</option>
+																</select></label>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6 ">
+												<div class="pull-right">
+													<ul class="pagination no-margin margin-bottom-10">
+														<li>
+															<a href="#"> <i class="ti-arrow-left"></i> </a>
+														</li>
+														<li>
+															<a href="#"> 1 </a>
+														</li>
+														<li>
+															<a href="#"> 2 </a>
+														</li>
+														<li>
+															<a href="#"> 3 </a>
+														</li>
+														<li>
+															<a href="#"> 4 </a>
+														</li>
+														<li>
+															<a href="#"> <i class="ti-arrow-right"></i> </a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											</div>
 										</div>
 									</div>
 
 									<!-- Setting -->
-									<h5 class="over-title margin-bottom-15">2. Email <span class="text-bold">Configuration</span></h5>
+									<h5 class="over-title margin-bottom-15">Email <span class="text-bold">Configuration</span></h5>
 									<div class="padding-30 border-light-grey">
 										<!-- Email From -->
 										<div class="row">
@@ -91,19 +205,10 @@
 												<div class="form-group">
 													<label for="exampleInputEmail1"> From Email </label>
 													<div class="clearfix">
-														<div class="col-md-8 no-padding">
-															<select id="select-beast1" class="demo-default" placeholder="Select an email">
-																<option value="">Select an email</option>
-																<option value="4">thomas@edison</option>
-																<option value="3">nikola@tesla</option>
-															</select>
-														</div>
-														<div class="underline pull-left cursor-pointer margin-left-10 margin-top-8" data-toggle="modal" data-target=".modal-add-new-email">
-															Add New Email
-														</div>
+														<h4 class="pull-left margin-right-10" style="margin-top: 5px; margin-bottom: 0;"><b>yasir@beon.co.id</b></h4>
+														<a class="btn btn-success btn-xs float-xs-right float-md-none" href="#" style="margin-top: 3px;">Modify Email</a>
 													</div>
 												</div>
-
 											</div>
 										</div>
 										<!-- Subject -->
@@ -119,7 +224,7 @@
 										<div class="row">
 											<div class="col-md-12">
 												<div class="form-group">
-													<label for="exampleInputEmail1"> Broadcast Content</label>
+													<label for="exampleInputEmail1"> Content</label>
 													<a  class="btn btn-primary btn-xs float-xs-right float-md-none margin-left-10" href="#">Edit Content</a>
 													<div class="center border-light-grey margin-top-10">
 														<img src="assets/images/layout-1.jpg" class="img-responsive">
@@ -180,7 +285,7 @@
 											</button>
 
 											<button type="button" class="btn btn-wide btn-primary margin-bottom-10">
-												<i class="fa fa-location-arrow"></i> Send Now
+												<i class="fa fa-location-arrow"></i> Create Broadcast
 											</button>
 										</div>
 									</div>
@@ -204,16 +309,8 @@
 	<?php include 'include/settings-panel.php'; ?>
 	<!-- end: SETTINGS -->
 </div>
-
-<?php include 'modal/add-from-list-email.php'; ?>
-<?php include 'modal/one-by-one-email.php'; ?>
-<?php include 'modal/import-email.php'; ?>
-<?php include 'modal/copy-paste-email.php'; ?>
-<?php include 'modal/add-new-email.php'; ?>
-
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
-<script src="assets/js/selectize.js"></script>
 <!-- start: JavaScript Event Handlers for this page -->
 <script src="assets/js/index.js"></script>
 <script>
@@ -223,30 +320,11 @@
 	});
 </script>
 <script>
-	var textAreas = document.getElementsByTagName('textarea');
-
-	Array.prototype.forEach.call(textAreas, function(elem) {
-		elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
-	});
-</script>
-<script>
-	$(document).ready(function(){
-		$("#radio1").click(function(){
-			$(".hide-show").hide("slow");
+	$(function() {
+		$( "#tanggal" ).datepicker({
+			changeMonth: true,
+			changeYear: true
 		});
-		$("#radio2").click(function(){
-			$(".hide-show").show("slow");
-		});
-	});
-</script>
-<script>
-	$('#select-beast1').selectize({
-		create: false,
-		sortField: {
-			field: 'text',
-			direction: 'asc'
-		},
-		dropdownParent: 'body'
 	});
 </script>
 <!-- end: JavaScript Event Handlers for this page -->

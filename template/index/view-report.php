@@ -26,13 +26,15 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Broadcast SMS</h4>
+					<h4 class="mainTitle no-margin">Link Report</h4>
+					<span class="mainDescription">Each url has the right to have a report</span>
+
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
-							Dashboard
+							Link Report
 						</li>
 					</ul>
 				</div>
@@ -47,15 +49,15 @@
 										<div class="col-md-12">
 											<div class="panel panel-white no-radius no-border">
 												<div class="panel-heading">
-													<div class="col-sm-2">
-														<h4 class="margin-top-5"><span class="text-bold">Report Link</span></h4>
-													</div>
-													<div class="col-sm-4">
-														<a href=""><h3><span class="text-bold text-primary">bit.ly/Jagoanstore-gratis</span></h3></a>
+													<div class="col-sm-6">
+														<h3><span class="text-bold">URL: <span class="text-like-success">bit.ly/Jagoanstore-gratis</span></span></h3>
 													</div>
 													<div class="col-sm-6">
 														<div class="button-two pull-right">
-															<button type="button" class="margin-bottom-10 btn btn-wide btn-o btn-primary">
+															<a href="overview-broadcast.php" class="margin-bottom-10 btn btn-o btn-primary">
+																<i class="fa fa-angle-left"></i> Back
+															</a>
+															<button type="button" class="margin-bottom-10 btn btn-wide btn btn-primary">
 																<i class="fa fa-paper-plane"></i> Send SMS Broadcast
 															</button>
 															<button type="button" class="margin-bottom-10 btn btn-wide btn-primary">
@@ -64,83 +66,79 @@
 														</div>
 													</div>
 												</div>
+												<hr class="separator"/>
 												<div class="panel-body">
-													<div class="padding-30 border-light-grey margin-bottom-20">
-														<div>
-															<div class="row">
-																<h5 class="over-title margin-bottom-15">Click <span class="text-bold"> Performance</span></h5>
-																<div class="col-md-6">
-																	<div class="col-sm-6">
-																		<p>Click Rate</p>
-																	</div>
-																	<div class="col-sm-6">
-																		<p class="text-bold text-right">10 Click</p>
-																	</div>
-																</div>
-															</div>
-															<div class="row">
+													<h5 class="over-title margin-bottom-15">Click <span class="text-bold"> Performance</span></h5>
+													<div class="row margin-bottom-20">
+														<div class="col-md-6">
+															<div class="border-light-grey clearfix" style="padding: 18px 10px;">
 																<div class="col-sm-6">
-																	<div class="progress progress-striped active progress-xs">
+																	<p>Click Rate</p>
+																</div>
+																<div class="col-sm-6">
+																	<p class="text-bold text-right">10 Click</p>
+																</div>
+																<div class="col-sm-12">
+																	<div class="progress progress-striped active progress-xs margin-bottom-0">
 																		<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-																			<span class="sr-only"> 35% Complete</span>
+																			<span class="sr-only"> 20% Complete</span>
 																		</div>
 																	</div>
 																</div>
 															</div>
 														</div>
-														<div class="row">
-															<h5 class="over-title margin-bottom-15">Your <span class="text-bold"> Subcriber name</span></h5>
-															<div class="table-responsive">
-																<table class="table table-hover" id="sample-table-1">
-																	<thead>
-																	<tr>
-																		<th class="center">#</th>
-																		<th>Email</th>
-																		<th class="hidden-xs">Name</th>
-																		<th>Phone</th>
-																		<th class="hidden-xs">Open Time</th>
-																		<th></th>
-																	</tr>
-																	</thead>
-																	<tbody>
-																	<tr>
-																		<td class="center">1</td>
-																		<td class="hidden-xs">rifkiardianzah@gmail.com</td>
-																		<td>Rifki</td>
-																		<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																		<td class="hidden-xs">22 Oktober 2015</td>
-																	</tr>
-																	<tr>
-																		<td class="center">2</td>
-																		<td>rifkiardianzah@gmail.com</td>
-																		<td class="hidden-xs">Rifki</td>
-																		<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																		<td class="hidden-xs">22 Oktober 2015</td>
-																	</tr>
-																	<tr>
-																		<td class="center">3</td>
-																		<td>rifkiardianzah@gmail.com</td>
-																		<td class="hidden-xs">Rifki</td>
-																		<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																		<td class="hidden-xs">22 Oktober 2015</td>
-																	</tr>
-																	<tr>
-																		<td class="center">4</td>
-																		<td>rifkiardianzah@gmail.com</td>
-																		<td class="hidden-xs">Rifki</td>
-																		<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																		<td class="hidden-xs">22 Oktober 2015</td>
-																	</tr>
-																	<tr>
-																		<td class="center">5</td>
-																		<td>rifkiardianzah@gmail.com</td>
-																		<td class="hidden-xs">Rifki</td>
-																		<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																		<td class="hidden-xs">22 Oktober 2015</td>
-																	</tr>
-																	</tbody>
-																</table>
-															</div>
+													</div>
+													<h5 class="over-title margin-bottom-15">Your <span class="text-bold"> Subcriber name</span></h5>
+													<div class="margin-bottom-10">
+														<div class="table-responsive">
+															<table class="table table-hover" id="sample-table-1">
+																<thead>
+																<tr>
+																	<th class="center">#</th>
+																	<th>Email</th>
+																	<th class="hidden-xs">Name</th>
+																	<th>Phone</th>
+																	<th class="hidden-xs">Open Time</th>
+																</tr>
+																</thead>
+																<tbody>
+																<tr>
+																	<td class="center">1</td>
+																	<td class="hidden-xs">rifkiardianzah@gmail.com</td>
+																	<td>Rifki</td>
+																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
+																	<td class="hidden-xs">22 Oktober 2015</td>
+																</tr>
+																<tr>
+																	<td class="center">2</td>
+																	<td>rifkiardianzah@gmail.com</td>
+																	<td class="hidden-xs">Rifki</td>
+																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
+																	<td class="hidden-xs">22 Oktober 2015</td>
+																</tr>
+																<tr>
+																	<td class="center">3</td>
+																	<td>rifkiardianzah@gmail.com</td>
+																	<td class="hidden-xs">Rifki</td>
+																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
+																	<td class="hidden-xs">22 Oktober 2015</td>
+																</tr>
+																<tr>
+																	<td class="center">4</td>
+																	<td>rifkiardianzah@gmail.com</td>
+																	<td class="hidden-xs">Rifki</td>
+																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
+																	<td class="hidden-xs">22 Oktober 2015</td>
+																</tr>
+																<tr>
+																	<td class="center">5</td>
+																	<td>rifkiardianzah@gmail.com</td>
+																	<td class="hidden-xs">Rifki</td>
+																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
+																	<td class="hidden-xs">22 Oktober 2015</td>
+																</tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 												</div>

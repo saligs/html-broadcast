@@ -26,13 +26,15 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Broadcast SMS</h4>
+					<h4 class="mainTitle no-margin">Group</h4>
+					<span class="mainDescription">You can group broadcast contacts</span>
+
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
-							Dashboard
+							Group
 						</li>
 					</ul>
 				</div>
@@ -43,11 +45,9 @@
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
-									<div class="panel-heading">
-										<div class="panel-heading"><h5 class="over-title margin-bottom-15"> Your <span class="text-bold">Group List</span></h5></div>
-									</div>
 									<div class="table-responsive">
-										<table class="table borderless">
+										<table class="table borderless table-head-border table-last-25-percent">
+											<thead>
 											<tr>
 												<td>
 													<div class="checkbox clip-check  no-margin check-primary check-lg checkbox-inline">
@@ -88,18 +88,17 @@
 													</div>
 													<a href="#" class="btn btn-light-grey"><i class="fa fa-trash"></i> Delete</a>
 												</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td>
-													<div class="form-group padding-right-5">
+												<td colspan="5">
+													<div class="col-md-6 pull-right">
 															<span class="input-icon input-icon-right">
-																<input type="text" placeholder="Text Field" id="form-field-17" class="form-control">
+																<input type="text" placeholder="Search..." id="form-field-17" class="form-control">
 																<i class="fa fa-search"></i>
 															</span>
 													</div>
 												</td>
 											</tr>
+											</thead>
+											<tbody>
 											<tr>
 												<td>
 													<div class="checkbox clip-check  no-margin check-primary check-lg checkbox-inline">
@@ -340,7 +339,7 @@
 													</div>
 												</td>
 											</tr>
-
+											</tbody>
 										</table>
 									</div>
 									<div class="panel-body"><div class="border-bottom margin-bottom-20"></div></div>

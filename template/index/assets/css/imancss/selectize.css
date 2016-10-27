@@ -134,8 +134,8 @@
   display: inline-block;
 }
 .selectize-input {
-  border: 1px solid #d0d0d0;
-  padding: 8px 8px;
+  border: 1px solid #c8c7cc;
+  padding: 7px 8px;
   display: inline-block;
   width: 100%;
   overflow: hidden;
@@ -144,11 +144,21 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  /*
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+  */
+
+
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+
+  /*
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  */
 }
 .selectize-control.multi .selectize-input.has-items {
   padding: 6px 8px 3px;
@@ -165,9 +175,15 @@
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 .selectize-input.dropdown-active {
+  /*
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
+  */
+
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 .selectize-input > * {
   vertical-align: baseline;

@@ -26,13 +26,15 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Page Broadcast List</h4>
+					<h4 class="mainTitle no-margin">New Contact</h4>
+					<span class="mainDescription">Convert your important person into your contact</span>
+
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="dashboard.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
-							Dashboard
+							Contact
 						</li>
 					</ul>
 				</div>
@@ -44,7 +46,7 @@
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
 									<div class="panel-heading">
-										<h2 class="border-bottom padding-bottom-15"> Add Contact </h2>
+										<h4 class="border-bottom padding-bottom-15"> Add Contact </h4>
 									</div>
 									<div class="row padding-left-30 padding-right-30 padding-bottom-30">
 										<div class="col-md-3">

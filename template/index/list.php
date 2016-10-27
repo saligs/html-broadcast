@@ -11,6 +11,7 @@
 	<?php include 'include/main-head.php'; ?>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="assets/css/rio.css">
 </head>
 <!-- end: HEAD -->
 <body>
@@ -26,84 +27,81 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Page Broadcast List</h4>
+					<h4 class="mainTitle no-margin">Broadcast History</h4>
+					<span class="mainDescription">Check your history for your better future</span>
+
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="dashboard.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
-							Dashboard
+							Broadcast History
 						</li>
 					</ul>
 				</div>
 				<!-- end: BREADCRUMB -->
 				<!-- start: FIRST SECTION -->
-				<div class="container-fluid container-fullw padding-bottom-10">
+				<div class="container-fluid padding-top-30 padding-bottom-10">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
-									<div class="panel-heading">
-										<div class="panel-heading"><h5 class="over-title margin-bottom"> Your <span class="text-bold"> Broadcast List </span></h5></div>
-									</div>
-									<div class="table-responsive">
-										<table class="table borderless">
+									<div class="table-responsive padding-10">
+										<table class="table">
 											<tr>
 												<td>
-													<div class="checkbox clip-check  no-margin check-primary check-lg checkbox-inline">
+													<div class="checkbox clip-check  no-margin check-primary checkbox-inline">
 														<input type="checkbox" id="checkbox17" value="1">
 														<label for="checkbox17"></label>
 													</div>
 												</td>
-												<td>
-													Sort By
-													<div class="btn-group">
-														<button type="button" class="btn btn-light-grey">
-															Name
-														</button>
-														<button type="button" class="btn btn-light-grey dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-															<span class="fa fa-angle-down"></span>
-														</button>
-														<ul class="dropdown-menu" role="menu">
-															<li role="presentation" class="dropdown-header">
-																Dropdown header
-															</li>
-															<li>
-																<a href="#"> Action </a>
-															</li>
-															<li>
-																<a href="#"> Another action </a>
-															</li>
-															<li>
-																<a href="#"> Something else here </a>
-															</li>
-															<li class="divider"></li>
-															<li role="presentation" class="dropdown-header">
-																Dropdown header
-															</li>
-															<li>
-																<a href="#"> Separated link </a>
-															</li>
-														</ul>
-													</div>
-													<a href="#" class="btn btn-light-grey"><i class="fa fa-trash"></i> Delete</a>
+												<td colspan="3">
+													<button class="btn underline trans" data-toggle="modal" data-target=".modal-list">Action</button>
 												</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td>
-													<div class="form-group padding-right-5">
-															<span class="input-icon input-icon-right">
-																<input type="text" placeholder="Search..." id="form-field-17" class="form-control">
-																<i class="fa fa-search"></i>
-															</span>
+												<td colspan="5">
+													<div class="pull-right">
+														Sort By
+														<div class="btn-group">
+															<button type="button" class="btn btn-light-grey">
+																Name
+															</button>
+															<button type="button" class="btn btn-light-grey dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+																<span class="fa fa-angle-down"></span>
+															</button>
+															<ul class="dropdown-menu" role="menu">
+																<!-- <li role="presentation" class="dropdown-header">
+																	Dropdown header
+																</li>
+																<li>
+																	<a href="#"> Action </a>
+																</li>
+																<li>
+																	<a href="#"> Another action </a>
+																</li>
+																<li>
+																	<a href="#"> Something else here </a>
+																</li>
+																<li class="divider"></li>
+																<li role="presentation" class="dropdown-header">
+																	Dropdown header
+																</li>
+																<li>
+																	<a href="#"> Separated link </a>
+																</li> -->
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-6 pull-right">
+														<span class="input-icon input-icon-right">
+															<input type="text" placeholder="Search..." id="form-field-17" class="form-control">
+															<i class="fa fa-search"></i>
+														</span>
 													</div>
 												</td>
 											</tr>
 											<tr>
-												<td>
-													<div class="checkbox clip-check check-primary check-lg checkbox-inline">
+												<td width="1%">
+													<div class="checkbox clip-check check-primary checkbox-inline">
 														<input type="checkbox" id="checkbox18" value="1">
 														<label for="checkbox18"></label>
 													</div>
@@ -128,26 +126,10 @@
 													<strong>5</strong><br>
 													Read
 												</td>
-												<td>
-													<div class="btn-group">
-														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
-														<ul class="dropdown-menu" role="menu">
-															<li role="presentation" class="dropdown-header">
-																Choose Method
-															</li>
-															<li>
-																<a href="broadcast_sms.php"> SMS Broadcast</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> Email Broadcast</a>
-															</li>
-														</ul>
-													</div>
-												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="checkbox clip-check check-primary check-lg checkbox-inline">
+													<div class="checkbox clip-check check-primary checkbox-inline">
 														<input type="checkbox" id="checkbox19" value="1">
 														<label for="checkbox19"></label>
 													</div>
@@ -172,26 +154,10 @@
 													<strong>5</strong><br>
 													Read
 												</td>
-												<td>
-													<div class="btn-group">
-														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
-														<ul class="dropdown-menu" role="menu">
-															<li role="presentation" class="dropdown-header">
-																Choose Method
-															</li>
-															<li>
-																<a href="broadcast_sms.php"> SMS Broadcast</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> Email Broadcast</a>
-															</li>
-														</ul>
-													</div>
-												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="checkbox clip-check check-primary check-lg checkbox-inline">
+													<div class="checkbox clip-check check-primary checkbox-inline">
 														<input type="checkbox" id="checkbox20" value="1">
 														<label for="checkbox20"></label>
 													</div>
@@ -216,26 +182,10 @@
 													<strong>5</strong><br>
 													Read
 												</td>
-												<td>
-													<div class="btn-group">
-														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
-														<ul class="dropdown-menu" role="menu">
-															<li role="presentation" class="dropdown-header">
-																Choose Method
-															</li>
-															<li>
-																<a href="broadcast_sms.php"> SMS Broadcast</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> Email Broadcast</a>
-															</li>
-														</ul>
-													</div>
-												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="checkbox clip-check check-primary check-lg checkbox-inline">
+													<div class="checkbox clip-check check-primary checkbox-inline">
 														<input type="checkbox" id="checkbox21" value="1">
 														<label for="checkbox21"></label>
 													</div>
@@ -260,26 +210,9 @@
 													<strong>5</strong><br>
 													Read
 												</td>
-												<td>
-													<div class="btn-group">
-														<a href="#" data-toggle="dropdown" class="btn btn-light-grey dropdown-toggle" aria-expanded="true"> <i class="fa fa-send"></i> Send Broadcast <span class="caret"></span> </a>
-														<ul class="dropdown-menu" role="menu">
-															<li role="presentation" class="dropdown-header">
-																Choose Method
-															</li>
-															<li>
-																<a href="broadcast_sms.php"> SMS Broadcast</a>
-															</li>
-															<li>
-																<a href="broadcast_email.php"> Email Broadcast</a>
-															</li>
-														</ul>
-													</div>
-												</td>
 											</tr>
 										</table>
 									</div>
-									<div class="panel-body"><div class="border-bottom margin-bottom-20"></div></div>
 									<div class="row">
 										<div class="col-xs-4 full-block">
 											<div class="dataTables_length padding-left-15" id="sample_2_length">
@@ -337,6 +270,8 @@
 	<?php include 'include/settings-panel.php'; ?>
 	<!-- end: SETTINGS -->
 </div>
+
+<?php include 'modal/modal-list.php'; ?>
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->

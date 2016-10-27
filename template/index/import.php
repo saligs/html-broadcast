@@ -27,15 +27,7 @@
 					<div class="wrap-content container" id="container">
 						<!-- start: BREADCRUMB -->
 						<div class="breadcrumb-wrapper">
-							<a href="dashboard.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
-							<ul class="pull-right breadcrumb">
-								<li>
-									<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
-								</li>
-								<li>
-									Dashboard
-								</li>
-							</ul>
+							<a href="index.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
 						</div>
 						<!-- end: BREADCRUMB -->
 						<!-- start: FIRST SECTION -->
@@ -44,7 +36,7 @@
 								<div class="panel-heading"><h5 class="over-title margin-bottom"> Import Your <span class="text-bold">Contact List</span></h5></div>
 							</div>
 						</div>
-						<div class="container-fluid container-fullw padding-bottom-10">
+						<div class="container-fluid padding-bottom-10">
 							<div class="row">
 								<div class="col-sm-12">
 									<div class="panel panel-white no-radius">

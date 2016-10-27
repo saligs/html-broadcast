@@ -26,13 +26,15 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Broadcast Email</h4>
+					<h4 class="mainTitle no-margin">Broadcast Overview</h4>
+					<span class="mainDescription">Overview of your broadcast</span>
+
 					<ul class="pull-right breadcrumb">
 						<li>
-							<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
+							<a href="index.php"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Dashboard</a>
 						</li>
 						<li>
-							Dashboard
+							Broadcast Overview
 						</li>
 					</ul>
 				</div>
@@ -48,10 +50,11 @@
 											<div class="panel panel-white no-radius no-border padding-25">
 												<div class="row">
 													<div class="col-sm-4 col-xs-6">
-														<h4><b>Undangan Workshop 2016</b></h4>
+														<h4 class="margin-top-6"><b>Undangan Workshop 2016</b></h4>
 													</div>
 													<div class="col-sm-4 col-xs-6">
-														<h4><b>6366</b></h4>
+														<div class="bc-block-item bg-purple"><i class="fa fa-user"></i><b>6366</b></div>
+														<div class="bc-block-item bg-orange"><i class="fa fa-envelope"></i><b>Email</b></div>
 													</div>
 													<div class="col-sm-4 col-xs-0 margin-bottom-10">
 														<a href="" class="btn btn-primary btn-wide pull-right no-margin posisi">
@@ -63,32 +66,36 @@
 												<h5 clas="over-title margin-bottom-15"> Broadcast <b>Performance</b></h5>
 												<div class="row margin-bottom-20">
 													<div class="col-sm-6">
-														<div class="col-sm-6">
-															<h5>Open Rate</h5>
-														</div>
-														<div class="col-sm-6">
-															<h5 class="pull-right"><b>Open 10</b> from 20 list</h5>
-														</div>
-														<div class="col-sm-12">
-															<div class="progress progress-striped active progress-xs">
-																<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-																	<span class="sr-only"> 20% Complete</span>
+														<div class="border-light-grey clearfix" style="padding: 18px 10px;">
+															<div class="col-sm-6">
+																<h5>Open Rate</h5>
+															</div>
+															<div class="col-sm-6">
+																<h5 class="pull-right"><b>Open 10</b> from 20 list</h5>
+															</div>
+															<div class="col-sm-12">
+																<div class="progress progress-striped active progress-xs margin-bottom-0">
+																	<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+																		<span class="sr-only"> 20% Complete</span>
+																	</div>
 																</div>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-6">
-														<div class="col-sm-6">
-															<h5>Email Read</h5>
-														</div>
-														<div class="col-sm-6">
-															<h5 class="pull-right"><b>9</b> people</h5>
-														</div>
-														<div class="col-sm-12">
-															<div class="progress progress-striped active progress-xs">
-																<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-																	<span class="sr-only"> 40% Complete</span>
+														<div class="border-light-grey clearfix" style="padding: 18px 10px;">
+															<div class="col-sm-6">
+																<h5>Email Read</h5>
+															</div>
+															<div class="col-sm-6">
+																<h5 class="pull-right"><b>9</b> people</h5>
+															</div>
+															<div class="col-sm-12">
+																<div class="progress progress-striped active progress-xs margin-bottom-0">
+																	<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+																		<span class="sr-only"> 40% Complete</span>
+																	</div>
 																</div>
 															</div>
 														</div>
@@ -113,7 +120,7 @@
 															<td class="">rifkifardianzah@gmail.com</td>
 															<td>Rifki</td>
 															<td>085649679950</td>
-															<td class=""><i class="fa fa-check-circle"></i> Success</td>
+															<td class=""><span class="text-green"><i class="fa fa-check-circle"></i> Success</span></td>
 															<td>1 Open Form 2 Link</td>
 														</tr>
 														<tr>
@@ -121,7 +128,7 @@
 															<td class="">rifkifardianzah@gmail.com</td>
 															<td>Rifki</td>
 															<td>085649679950</td>
-															<td class=""><i class="fa fa-close"></i> Failed</td>
+															<td class=""><span class="text-red"><i class="fa fa-close"></i> Failed</span></td>
 															<td>1 Open Form 2 Link</td>
 														</tr>
 														<tr>
@@ -137,7 +144,7 @@
 															<td class="">rifkifardianzah@gmail.com</td>
 															<td>Rifki</td>
 															<td>085649679950</td>
-															<td class=""><i class="fa fa-check-circle"></i> Success</td>
+															<td class=""><span class="text-green"><i class="fa fa-check-circle"></i> Success</span></td>
 															<td>1 Open Form 2 Link</td>
 														</tr>
 														<tr>
@@ -145,7 +152,7 @@
 															<td class="">rifkifardianzah@gmail.com/td>
 															<td>Rifki</td>
 															<td>085649679950</td>
-															<td class=""><i class="fa fa-check-circle"></i> Success</td>
+															<td class=""><span class="text-green"><i class="fa fa-check-circle"></i> Success</span></td>
 															<td>1 Open Form 2 Link</td>
 														</tr>
 														</tbody>
@@ -188,19 +195,22 @@
 														</div>
 													</div>
 												</div>
+												<hr class="separator"/>
 												<h5 clas="over-title margin-bottom-15"> Your <b>Link Report</b></h5>
 												<div class="row margin-bottom-20">
 													<div class="col-sm-6">
-														<div class="col-sm-6">
-															<h5>Click Rate</h5>
-														</div>
-														<div class="col-sm-6 pull-right">
-															<h5 class="pull-right"><b>20%</b></h5>
-														</div>
-														<div class="col-sm-12">
-															<div class="progress progress-striped active progress-xs">
-																<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-																	<span class="sr-only"> 20% Complete</span>
+														<div class="border-light-grey clearfix" style="padding: 18px 10px;">
+															<div class="col-sm-6">
+																<h5>Click Rate</h5>
+															</div>
+															<div class="col-sm-6 text-right">
+																<h5><b>20%</b></h5>
+															</div>
+															<div class="col-sm-12">
+																<div class="progress progress-striped active progress-xs margin-bottom-0">
+																	<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+																		<span class="sr-only"> 20% Complete</span>
+																	</div>
 																</div>
 															</div>
 														</div>

@@ -15900,3 +15900,88 @@ figure.effect-goliath:hover p {
   background-repeat: no-repeat;
   margin-top: 60px;
 }
+
+
+/* F*/
+.float-xs-left{float:left!important}.float-xs-right{float:right!important}.float-xs-none{float:none!important}@media (min-width:576px){.float-sm-left{float:left!important}.float-sm-right{float:right!important}.float-sm-none{float:none!important}}@media (min-width:768px){.float-md-left{float:left!important}.float-md-right{float:right!important}.float-md-none{float:none!important}}@media (min-width:992px){.float-lg-left{float:left!important}.float-lg-right{float:right!important}.float-lg-none{float:none!important}}@media (min-width:1200px){.float-xl-left{float:left!important}.float-xl-right{float:right!important}.float-xl-none{float:none!important}}
+
+.img-responsive { display: inline-block !important; }
+
+.table-head-border thead td,
+.table-head-border.borderless thead td {
+  border-bottom: 1px solid #e2e2e4 !important;
+}
+
+.table-last-20-percent tbody td:last-child {
+  width: 20%;
+}
+.table-last-25-percent tbody td:last-child {
+  width: 25%;
+}
+
+.bc-block-item {
+  float: left;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.bc-block-item:last-child {
+  margin-right: 0;
+}
+
+.bc-block-item .fa {
+  margin-right: 7px;
+}
+
+.margin-top-6 { margin-top: 6px; }
+.text-like-success { color: #5cb85c; }
+
+.modal-add-from-list.modal-aside,
+.modal-one-by-one.modal-aside,
+.modal-import.modal-aside,
+.modal-copy-paste.modal-aside,
+.modal-custom.modal-aside {
+  background-color: #ffffff;
+  padding: 20% 10%;
+}
+
+.modal-add-from-list.modal-aside.vertical.top.in .modal-dialog,
+.modal-one-by-one.modal-aside.vertical.top.in .modal-dialog,
+.modal-import.modal-aside.vertical.top.in .modal-dialog,
+.modal-copy-paste.modal-aside.vertical.top.in .modal-dialog,
+.modal-custom.modal-aside.vertical.top.in .modal-dialog{
+  padding: 0;
+  height: 100%;
+}
+
+.modal-add-from-list .modal-body,
+.modal-one-by-one .modal-body,
+.modal-import .modal-body,
+.modal-copy-paste .modal-body,
+.modal-custom .modal-body {
+  overflow-y: auto;
+  height: calc(100% - 50px - 64px);
+}
+
+.modal-add-from-list .modal-footer,
+.modal-one-by-one .modal-footer,
+.modal-import .modal-footer,
+.modal-copy-paste .modal-footer,
+.modal-custom .modal-footer {
+  max-height: 64px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.modal-add-from-list .modal-header,
+.modal-one-by-one .modal-header,
+.modal-import .modal-header,
+.modal-copy-paste .modal-header,
+.modal-custom .modal-header {
+  max-height: 50px;
+}
+
+.cursor-pointer { cursor: pointer; }
+.margin-top-8 { margin-top: 8px !important; }

@@ -26,16 +26,7 @@
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
-					<h4 class="mainTitle no-margin">Welcome to Packet</h4>
-					<span class="mainDescription">overview &amp; stats </span>
-					<ul class="pull-right breadcrumb">
-						<li>
-							<a href="index.html"><i class="fa fa-home margin-right-5 text-large text-dark"></i>Home</a>
-						</li>
-						<li>
-							Dashboard
-						</li>
-					</ul>
+					<h4 class="mainTitle no-margin">Dashboard</h4>
 				</div>
 				<!-- end: BREADCRUMB -->
 				<div class="container padding-top-30">
@@ -51,7 +42,63 @@
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
-									<h4 class="border-bottom padding-bottom-20">Your Top 5 Broadcast Content</h4>
+									<h4 class="border-bottom padding-bottom-20">Your Broadcast</h4>
+									<div class="table-reponsive">
+										<table class="table borderless">
+											<tr>
+												<td>
+													<b class="color-blue-dark">Undangan Workshop Januari 2016</b><br>
+													Created : 30 Desember 2016
+												</td>
+												<td>
+													<b class="color-blue-dark">40 Subscribers</b><br>
+													Read Your Broadcast
+												</td>
+												<td>
+													<a href="#" class="btn btn-grey">Follow Up</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<b class="color-blue-dark">Undangan Workshop Januari 2016</b><br>
+													Created : 30 Desember 2016
+												</td>
+												<td>
+													<b class="color-blue-dark">40 Subscribers</b><br>
+													Read Your Broadcast
+												</td>
+												<td>
+													<a href="#" class="btn btn-grey">Follow Up</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<b class="color-blue-dark">Undangan Workshop Januari 2016</b><br>
+													Created : 30 Desember 2016
+												</td>
+												<td>
+													<b class="color-blue-dark">40 Subscribers</b><br>
+													Read Your Broadcast
+												</td>
+												<td>
+													<a href="#" class="btn btn-grey">Follow Up</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<b class="color-blue-dark">Undangan Workshop Januari 2016</b><br>
+													Created : 30 Desember 2016
+												</td>
+												<td>
+													<b class="color-blue-dark">40 Subscribers</b><br>
+													Read Your Broadcast
+												</td>
+												<td>
+													<a href="#" class="btn btn-grey">Follow Up</a>
+												</td>
+											</tr>
+										</table>
+									</div>
 								</div>
 							</div>
 						</div>

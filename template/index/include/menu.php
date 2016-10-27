@@ -1,11 +1,13 @@
 <nav>
 	<!-- start: MAIN NAVIGATION MENU -->
+	<!--
 	<div class="navbar-title">
 		<span>Main Navigation</span>
 	</div>
+	-->
 	<ul class="main-navigation-menu">
 		<li class="active open">
-			<a href="dashboard.php">
+			<a href="index.php">
 				<div class="item-content">
 					<div class="item-media">
 						<i class="fa fa-home"></i>
@@ -29,10 +31,10 @@
 			</a>
 			<ul class="sub-menu">
 				<li>
-					<a href="broadcast_email.php"><span class="title">Email Broadcast</span></a>
+					<a href="broadcast_sms.php"><span class="title">SMS Broadcast</span></a>
 				</li>
 				<li>
-					<a href="broadcast_sms.php"><span class="title">SMS Broadcast</span></a>
+					<a href="broadcast_email.php"><span class="title">Email Broadcast</span></a>
 				</li>
 				<li>
 					<a href="list.php"><span class="title">History</span></a>
@@ -40,16 +42,24 @@
 			</ul>
 		</li>
 		<li class="">
-			<a href="contact.php">
+			<a href="javascript:void(0)">
 				<div class="item-content">
 					<div class="item-media">
 						<i class="fa fa-user"></i>
 					</div>
 					<div class="item-inner">
-						<span class="title">Contact</span>
+						<span class="title">Contact </span><i class="icon-arrow"></i>
 					</div>
 				</div>
 			</a>
+			<ul class="sub-menu">
+				<li>
+					<a href="contact.php"><span class="title">Add New</span></a>
+				</li>
+				<li>
+					<a href="contact-list.php"><span class="title">List</span></a>
+				</li>
+			</ul>
 		</li>
 		<li class="">
 			<a href="group-list.php">
