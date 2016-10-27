@@ -55,32 +55,17 @@
 											<center>
 												<div class="button-four">
 
-													<button type="button"
-															class="margin-bottom-10 btn btn-wide btn-primary"
-															data-toggle="modal"
-															data-target=".bs-modal-choose-participant">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-o btn-primary" data-toggle="modal" data-target=".modal-add-from-list">
 														<i class="fa fa-plus"></i> Add From List
 													</button>
-
-													<button type="button"
-															class="margin-bottom-10 btn btn-wide btn-primary"
-															data-toggle="modal"
-															data-target=".bs-modal-choose-participant-one">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-one-by-one">
 														<i class="fa fa-location-arrow"></i> One by one
 													</button>
-
-													<button type="button"
-															class="margin-bottom-10 btn btn-wide btn-primary"
-															data-toggle="modal"
-															data-target=".bs-modal-import">
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-import">
 														<i class="fa fa-download"></i> Import
 													</button>
-
-													<button type="button"
-															class="margin-bottom-10 btn btn-wide btn-primary"
-															data-toggle="modal"
-															data-target=".bs-modal-copas">
-														<i class="fa fa-copy"></i> Copy Paste
+													<button type="button" class="margin-bottom-10 btn btn-wide btn-primary" data-toggle="modal" data-target=".modal-copy-paste">
+														<i class="fa fa-copy"></i> Copy paste
 													</button>
 
 												</div>
@@ -148,7 +133,7 @@
 													</div>
 													<div class="radio clip-radio radio-primary radio-inline" onclick="$('#datepicker-container').show();" style="margin-right: 0 !important;">
 														<input type="radio" id="radio2" name="inline" value="radio2">
-														<label for="radio2"> Send With Scedhule</label>
+														<label for="radio2"> Send With Schedule</label>
 													</div>
 												</div>
 												<div id="datepicker-container" style="display: none;">
@@ -214,22 +199,32 @@
 	<?php include 'include/settings-panel.php'; ?>
 	<!-- end: SETTINGS -->
 </div>
+
+<?php include 'modal/add-from-list.php'; ?>
+<?php include 'modal/one-by-one.php'; ?>
+<?php include 'modal/import.php'; ?>
+<?php include 'modal/copy-paste.php'; ?>
+
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
 <script src="assets/js/index.js"></script>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-			<script>
-			$(document).ready(function(){
-			    $("#radio1").click(function(){
-			        $(".hide-show").hide("slow");
-			    });
-			    $("#radio2").click(function(){
-			        $(".hide-show").show("slow");
-			    });
-			});
-	</script>
+<script>
+	jQuery(document).ready(function() {
+		Main.init();
+		Index.init();
+	});
+</script>
+<script>
+	$(document).ready(function(){
+		$("#radio1").click(function(){
+			$(".hide-show").hide("slow");
+		});
+		$("#radio2").click(function(){
+			$(".hide-show").show("slow");
+		});
+	});
+</script>
 <!-- end: JavaScript Event Handlers for this page -->
 </body>
 </html>

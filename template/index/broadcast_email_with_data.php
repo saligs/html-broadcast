@@ -243,7 +243,7 @@
 													</div>
 													<div class="radio clip-radio radio-primary radio-inline" onclick="$('#datepicker-container').show();" style="margin-right: 0 !important;">
 														<input type="radio" id="radio2" name="inline" value="radio2">
-														<label for="radio2"> Send With Scedhule</label>
+														<label for="radio2"> Send With Schedule</label>
 													</div>
 												</div>
 												<div id="datepicker-container" style="display: none;">
