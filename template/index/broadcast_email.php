@@ -53,7 +53,7 @@
 										<div class="text-center">
 										<img src="assets/images/no-contact.png" class="icon-width padding-bottom-20" alt="">
 										</div>
-										<h3 class="text-center">You have no participant</h3>
+										<h3 class="text-center">You have no Receipents</h3>
 										<div class="container">
 											<center>
 												<div class="button-four">
