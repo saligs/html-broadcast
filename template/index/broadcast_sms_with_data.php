@@ -93,7 +93,7 @@
 																<td>Fardianzah</td>
 																<td>Malang</td>
 																<td>0856718920</td>
-																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+																<td><a href="#" class="underline">Unselected</a></td>
 															</tr>
 															<tr>
 																<td class="center">2</td>
@@ -102,7 +102,7 @@
 																<td>Fardianzah</td>
 																<td>Malang</td>
 																<td>0856718920</td>
-																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+																<td><a href="#" class="underline">Unselected</a></td>
 															</tr>
 															<tr>
 																<td class="center">3</td>
@@ -111,7 +111,7 @@
 																<td>Fardianzah</td>
 																<td>Malang</td>
 																<td>0856718920</td>
-																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+																<td><a href="#" class="underline">Unselected</a></td>
 															</tr>
 															<tr>
 																<td class="center">4</td>
@@ -120,7 +120,7 @@
 																<td>Fardianzah</td>
 																<td>Malang</td>
 																<td>0856718920</td>
-																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+																<td><a href="#" class="underline">Unselected</a></td>
 															</tr>
 															<tr>
 																<td class="center">5</td>
@@ -129,7 +129,7 @@
 																<td>Fardianzah</td>
 																<td>Malang</td>
 																<td>0856718920</td>
-																<td><a href="#" class="btn btn-xs btn-danger" ><i class="fa fa-remove"></i></a></td>
+																<td><a href="#" class="underline">Unselected</a></td>
 															</tr>
 															</tbody>
 														</table>
