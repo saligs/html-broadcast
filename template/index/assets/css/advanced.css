@@ -38,6 +38,10 @@ body{
 	font-size: 60px;
 }
 
+.color-primary{
+	color: #58748B;
+}
+
 .text-center{
 	text-align: center;
 }
