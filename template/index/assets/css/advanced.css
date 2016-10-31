@@ -22,6 +22,18 @@ body{
 	padding: 15px;
 }
 
+.color-dark-orange{
+	color: #E46B10;
+}
+
+.size-40{
+	font-size: 40px;
+}
+
+.size-50{
+	font-size: 50px;
+}
+
 .size-60{
 	font-size: 60px;
 }
@@ -61,6 +73,13 @@ hr.onepixel {
 
 .icon-width{
 	width: 100px;
+}
+
+.area-button{
+	background: #FFF;
+	padding:  10px;
+	width: 100%;
+	border: 5px solid #ebebeb;
 }
 
 @media (max-width: 600px){

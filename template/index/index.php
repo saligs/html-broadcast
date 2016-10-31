@@ -32,9 +32,33 @@
 				<!-- end: BREADCRUMB -->
 				<div class="container padding-top-30">
 					<div class="row">
-						<div class="col-md-4"><a href="broadcast_sms.php"><img src="assets/images/b1.jpg" alt="" class="img-responsive margin-bottom-10 center-block"></a></div>
-						<div class="col-md-4"><a href="broadcast_email.php"><img src="assets/images/b2.jpg" alt="" class="img-responsive margin-bottom-10 center-block"></a></div>
-						<div class="col-md-4"><a href="contact.php"><img src="assets/images/b3.jpg" alt="" class="img-responsive margin-bottom-10 center-block"></a></div>
+						<div class="col-md-4">
+							<div class="area-button">
+								<div class="size-40 text-center">
+									<i class="fa fa-send color-dark-orange"></i>
+								</div>
+								<div class="text-center margin-10">For Your SMS Broadcast<br> Marketing</div>
+								<div class="text-center"><a href="broadcast_sms.php" class="btn btn-dark-orange btn-squared">Create Your Broadcast SMS</a></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="area-button">
+								<div class="size-40 text-center">
+									<i class="fa fa-envelope color-dark-orange"></i>
+								</div>
+								<div class="text-center margin-10">For Your Email Broadcast<br> Marketing</div>
+								<div class="text-center"><a href="broadcast_email.php" class="btn btn-dark-orange btn-squared">Create Your Broadcast Email</a></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="area-button">
+								<div class="size-40 text-center">
+									<i class="fa fa-users color-dark-orange"></i>
+								</div>
+								<div class="text-center margin-10">Add Your Contact List<br> Here</div>
+								<div class="text-center"><a href="contact.php" class="btn btn-dark-orange btn-squared">Create Your Contact List</a></div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- start: FIRST SECTION -->
