@@ -41,3 +41,11 @@ a > h4:hover {
     border: 1px solid #f97e05;
     color: #f97e05;
 }
+
+.betul {
+  color: #58eb40;
+}
+
+.salah {
+  color: #e92121;
+}

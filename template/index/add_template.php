@@ -47,7 +47,7 @@
                             </div>
 
                             <div class="margin-bottom-20"></div>
-                            <div class="panel panel-white no-radius kertas">
+                            <div class="panel panel-white no-radius">
                                 <div class="panel-body">
                                     <div class="row">
                                         <div class="col-md-4 col-sm-4 col-xs-12">

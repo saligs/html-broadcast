@@ -28,7 +28,7 @@
 				<!-- start: BREADCRUMB -->
 				<div class="breadcrumb-wrapper">
 					<h4 class="mainTitle no-margin">Broadcast History</h4>
-					<span class="mainDescription">Check your history for your better future</span>
+					<span class="mainDescription">Learn from your history for your better future</span>
 
 					<ul class="pull-right breadcrumb">
 						<li>

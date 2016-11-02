@@ -27,7 +27,6 @@
 		<div class="main-content" >
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
-
 				<div class="breadcrumb-wrapper">
 					<h4 class="mainTitle no-margin">Contact List</h4>
 					<span class="mainDescription">Check your history for your better future</span>
@@ -47,7 +46,6 @@
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
-
 										<div class="table-responsive padding-10">
 											<table class="table">
 												<tr>

@@ -167,15 +167,10 @@
 <?php include 'modal/one-by-one.php'; ?>
 <?php include 'modal/import.php'; ?>
 <?php include 'modal/copy-paste.php'; ?>
-
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
 <script src="assets/js/index.js"></script>
-<<<<<<< HEAD
-
-	
-=======
 <script>
 	jQuery(document).ready(function() {
 		Main.init();
@@ -192,7 +187,6 @@
 		});
 	});
 </script>
->>>>>>> 7314eb0fdba609d1264e568c19ed18d899bdd34d
 <!-- end: JavaScript Event Handlers for this page -->
 </body>
 </html>
