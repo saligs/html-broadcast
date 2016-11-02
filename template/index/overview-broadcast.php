@@ -53,8 +53,7 @@
 														<h4 class="margin-top-6"><b>Undangan Workshop 2016</b></h4>
 													</div>
 													<div class="col-sm-4 col-xs-6">
-														<div class="bc-block-item bg-purple"><i class="fa fa-user"></i><b>6366</b></div>
-														<div class="bc-block-item bg-orange"><i class="fa fa-envelope"></i><b>Email</b></div>
+														<div class="bc-block-item bg-purple"><i class="fa fa-user"></i><b>6366 contacts</b></div>
 													</div>
 													<div class="col-sm-4 col-xs-0 margin-bottom-10">
 														<a href="" class="btn btn-primary btn-wide pull-right no-margin posisi">
@@ -106,54 +105,48 @@
 													<table class="table table-hover margin-bottom-10" id="sample-table-1">
 														<thead>
 														<tr>
-															<th class="center ">#</th>
-															<th class="">Email</th>
+															<th class="center">#</th>
 															<th>Name</th>
-															<th>Phone</th>
-															<th class="">Status</th>
-															<th>Link</th>
+															<th>Status</th>
+															<th>Read</th>
+															<th>Unsubscribe</th>
 														</tr>
 														</thead>
 														<tbody>
 														<tr>
 															<td class="center ">1</td>
-															<td class="">rifkifardianzah@gmail.com</td>
-															<td>Rifki</td>
-															<td>085649679950</td>
-															<td class=""><span class="text-green"><i class="fa fa-check-circle"></i> Success</span></td>
-															<td>1 Open Form 2 Link</td>
+															<td>Rifki (rifkifardianzah@gmail.com)</td>
+															<td><span class="text-green"><i class="fa fa-check-circle"></i> Success</span></td>
+															<td><i class="fa fa-eye"></i> 22 Oktober 2015; 19.47</td>
+															<td><i class="fa fa-ban"></i> 22 Oktober 2015; 20.31</td>
 														</tr>
 														<tr>
 															<td class="center ">2</td>
-															<td class="">rifkifardianzah@gmail.com</td>
-															<td>Rifki</td>
-															<td>085649679950</td>
-															<td class=""><span class="text-red"><i class="fa fa-close"></i> Failed</span></td>
-															<td>1 Open Form 2 Link</td>
+															<td>Rifki (rifkifardianzah@gmail.com)</td>
+															<td><span class="text-red"><i class="fa fa-close"></i> Failed</span></td>
+															<td>...</td>
+															<td>...</i></td>
 														</tr>
 														<tr>
 															<td class="center ">3</td>
-															<td class="">rifkifardianzah@gmail.com</td>
-															<td>Rifki</td>
-															<td>085649679950</td>
-															<td class=""><i class="fa fa-user-times"></i> Unsubscribe</td>
-															<td>1 Open Form 2 Link</td>
+															<td>Rifki (rifkifardianzah@gmail.com)</td>
+															<td><span class="text-red"><i class="fa fa-close"></i> Failed</span></td>
+															<td>...</td>
+															<td>...</i></td>
 														</tr>
 														<tr>
 															<td class="center ">4</td>
-															<td class="">rifkifardianzah@gmail.com</td>
-															<td>Rifki</td>
-															<td>085649679950</td>
-															<td class=""><span class="text-green"><i class="fa fa-check-circle"></i> Success</span></td>
-															<td>1 Open Form 2 Link</td>
+															<td>Rifki (rifkifardianzah@gmail.com)</td>
+															<td><span class="text-yellow"><i class="fa fa-refresh"></i> Process</span></td>
+															<td>...</td>
+															<td>...</td>
 														</tr>
 														<tr>
 															<td class="center ">5</td>
-															<td class="">rifkifardianzah@gmail.com/td>
-															<td>Rifki</td>
-															<td>085649679950</td>
-															<td class=""><span class="text-green"><i class="fa fa-check-circle"></i> Success</span></td>
-															<td>1 Open Form 2 Link</td>
+															<td>Rifki (rifkifardianzah@gmail.com)</td>
+															<td><span class="text-green"><i class="fa fa-check-circle"></i> Success</span></td>
+															<td><i class="fa fa-eye"></i> Today; 00.01</td>
+															<td><i class="fa fa-send-o"></i> Today; 01.23</td>
 														</tr>
 														</tbody>
 													</table>
@@ -231,13 +224,13 @@
 														<tr>
 															<td class="center">1</td>
 															<td>Bit.ly/yasir-toko-online-gratis</td>
-															<td>60 Click</td>
+															<td>5 contacts clicked</td>
 															<td><a href="view-report.php"><i class="fa fa-bar-chart"></i> view report</a></td>
 														</tr>
 														<tr>
 															<td class="center">1</td>
 															<td>Bit.ly/yasir-toko-online-gratis</td>
-															<td>60 Click</td>
+															<td>15 contacts clicked</td>
 															<td><a href="view-report.php"><i class="fa fa-bar-chart"></i> view report</a></td>
 														</tr>
 														</tbody>

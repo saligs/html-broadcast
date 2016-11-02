@@ -95,47 +95,35 @@
 																<thead>
 																<tr>
 																	<th class="center">#</th>
-																	<th>Email</th>
-																	<th class="hidden-xs">Name</th>
-																	<th>Phone</th>
-																	<th class="hidden-xs">Open Time</th>
+																	<th>Contact</th>
+																	<th>Open Time</th>
 																</tr>
 																</thead>
 																<tbody>
 																<tr>
 																	<td class="center">1</td>
-																	<td class="hidden-xs">rifkiardianzah@gmail.com</td>
-																	<td>Rifki</td>
-																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																	<td class="hidden-xs">22 Oktober 2015</td>
+																	<td>Rifki (rifkiardianzah@gmail.com)</td>
+																	<td>22 Oktober 2015; 15.30</td>
 																</tr>
 																<tr>
 																	<td class="center">2</td>
-																	<td>rifkiardianzah@gmail.com</td>
-																	<td class="hidden-xs">Rifki</td>
-																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																	<td class="hidden-xs">22 Oktober 2015</td>
+																	<td>Rifki (rifkiardianzah@gmail.com)</td>
+																	<td>22 Oktober 2015; 16.20</td>
 																</tr>
 																<tr>
 																	<td class="center">3</td>
-																	<td>rifkiardianzah@gmail.com</td>
-																	<td class="hidden-xs">Rifki</td>
-																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																	<td class="hidden-xs">22 Oktober 2015</td>
+																	<td>Rifki (rifkiardianzah@gmail.com)</td>
+																	<td>22 Oktober 2015; 21.30</td>
 																</tr>
 																<tr>
 																	<td class="center">4</td>
-																	<td>rifkiardianzah@gmail.com</td>
-																	<td class="hidden-xs">Rifki</td>
-																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																	<td class="hidden-xs">22 Oktober 2015</td>
+																	<td>Rifki (rifkiardianzah@gmail.com)</td>
+																	<td>25 Oktober 2015; 02.50</td>
 																</tr>
 																<tr>
 																	<td class="center">5</td>
-																	<td>rifkiardianzah@gmail.com</td>
-																	<td class="hidden-xs">Rifki</td>
-																	<td><a href="#" rel="nofollow" target="_blank"> 085649679950 </a></td>
-																	<td class="hidden-xs">22 Oktober 2015</td>
+																	<td>Rifki (rifkiardianzah@gmail.com)</td>
+																	<td>26 Oktober 2015; 04.20</td>
 																</tr>
 																</tbody>
 															</table>
