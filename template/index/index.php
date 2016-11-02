@@ -30,6 +30,7 @@
 					<span class="mainDescription">Welcome to Broadcast</span>
 				</div>
 				<!-- end: BREADCRUMB -->
+				<!-- start: FIRST SECTION -->
 				<div class="container padding-top-30">
 					<div class="row">
 						<div class="col-md-4"><a href="broadcast_sms.php"><img src="assets/images/b1.jpg" alt="" class="img-responsive margin-bottom-10 center-block"></a></div>
@@ -37,7 +38,6 @@
 						<div class="col-md-4"><a href="contact.php"><img src="assets/images/b3.jpg" alt="" class="img-responsive margin-bottom-10 center-block"></a></div>
 					</div>
 				</div>
-				<!-- start: FIRST SECTION -->
 				<div class="container-fluid container-fullw padding-bottom-10">
 					<div class="row">
 						<div class="col-sm-12">
