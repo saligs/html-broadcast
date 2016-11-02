@@ -12,6 +12,8 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="assets/css/rio.css">
+	<link rel="stylesheet" href="assets/css/imancss/selectize.css">
+	<link rel="stylesheet" href="assets/css/handsontable.full.min.css">
 </head>
 <!-- end: HEAD -->
 <body>
@@ -30,24 +32,60 @@
 					<a href="index.php"><h4 class="mainTitle no-margin"><i class="fa fa-angle-left"></i> Back to Dashboard</h4></a>
 				</div>
 				<!-- end: BREADCRUMB -->
+
 				<!-- start: FIRST SECTION -->
-				<div class="container padding-left-30 padding-right-30 padding-top-30">
-					<div class="row">
-						<div class="panel-heading"><h5 class="over-title margin-bottom"> Copy Paste <span class="text-bold">Your Data Contact</span></h5></div>
-					</div>
-				</div>
-				<div class="container-fluid padding-bottom-10">
+				<div class="container-fluid padding-top-30 padding-bottom-10">
 					<div class="row">
 						<div class="col-sm-12">
+							<div class="panel-heading"><h5 class="over-title margin-bottom-0"> Copy Paste <span class="text-bold">Your Data Contact</span></h5></div>
 							<div class="panel panel-white no-radius">
-								<div class="panel-body padding-top-50 padding-bottom-50">
-									<textarea name="" id="" cols="30" rows="10" class="form-control" placeholder=" Email Address... Firstname... Lastname...\n\n Email Address... Firstname... Lastname...\n\n Email Address... Firstname... Lastname...\n\n Email Address... Firstname... Lastname...\n"></textarea>
-									<a href="result.php" class="btn btn-primary pull-right margin-top-10">Save &amp; Next</a>
+								<div class="panel-body padding-30">
+									<p>Select some column in your excel then paste it in the box below. You can also add your new field in first row.</p>
+
+									<div id="hot"></div>
+									<!-- Additional -->
+									<div class="optional-box margin-top-15" style="display: none;">
+										<p>You can also add Group to new contact</p>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="row">
+													<div class="col-md-1">
+														<div class="margin-top-8 text-bold">Grup</div>
+													</div>
+													<div class="col-md-11">
+														<select class="select-group" name="select_group[]" placeholder="Select a Group">
+															<option value="">Select a Group</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-5 hide">
+												<div class="row">
+													<div class="col-md-2">
+														<div class="margin-top-8 text-bold">Tag</div>
+													</div>
+													<div class="col-md-10">
+														<select class="select-tag" placeholder="Select a Tag">
+															<option value="">Select a Tag</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div id="export-buttons" class=" visible">
+										<button id="export-string" class="btn btn-primary pull-right margin-top-20">Save Contact</button>
+										<button type="button" class="btn btn-o btn-default margin-top-20 margin-right-10 pull-right show-optional-btn" onclick="$(this).hide(); $('.optional-box').show();">Show Other Option</button>
+									</div>
+
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
+
 			</div>
 		</div>
 	</div>
@@ -64,11 +102,70 @@
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
+
+<script src="assets/js/selectize.js"></script>
+<script src="assets/js/handsontable.full.min.js"></script>
 <script src="assets/js/index.js"></script>
 <script>
 	jQuery(document).ready(function() {
 		Main.init();
 		Index.init();
+
+		var firstRow = ['Firstname','Lastname','Email','Phone'];
+		var myData = [
+			firstRow,
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		];
+
+		var hotElement = document.querySelector('#hot');
+		var hotElementContainer = hotElement.parentNode;
+		var hotSettings = {
+			data: myData,
+			startRows: 5,
+			startCols: 5,
+			minSpareCols: 1,
+			//always keep at least 1 spare row at the right
+			minSpareRows: 1,
+			autoWrapRow: true,
+			height: 350,
+			//always keep at least 1 spare row at the bottom,
+			rowHeaders: true,
+			colHeaders: true,
+			contextMenu: true
+		};
+
+		var hot = new Handsontable(hotElement, hotSettings);
+
+
+		$('.select-group').selectize({
+			persist: false,
+			maxItems: null,
+			valueField: 'id',
+			labelField: 'name',
+			searchField: ['name'],
+			options: [{
+				id: '1',
+				name: 'Group 1'
+			},{
+				id: '2',
+				name: 'Group 2'
+			},{
+				id: '3',
+				name: 'Group 3'
+			}]
+		});
 	});
 </script>
 <script>
