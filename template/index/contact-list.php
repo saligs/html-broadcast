@@ -11,11 +11,8 @@
 	<?php include 'include/main-head.php'; ?>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" />
-<<<<<<< HEAD
 	<link rel="stylesheet" href="assets/css/iman.css">
-=======
 	<link rel="stylesheet" href="assets/css/rio.css">
->>>>>>> 7314eb0fdba609d1264e568c19ed18d899bdd34d
 </head>
 <!-- end: HEAD -->
 <body>
@@ -30,9 +27,7 @@
 		<div class="main-content" >
 			<div class="wrap-content container" id="container">
 				<!-- start: BREADCRUMB -->
-<<<<<<< HEAD
-				
-=======
+
 				<div class="breadcrumb-wrapper">
 					<h4 class="mainTitle no-margin">Contact List</h4>
 					<span class="mainDescription">Check your history for your better future</span>
@@ -45,7 +40,6 @@
 						</li>
 					</ul>
 				</div>
->>>>>>> 7314eb0fdba609d1264e568c19ed18d899bdd34d
 				<!-- end: BREADCRUMB -->
 				<!-- start: FIRST SECTION -->
 				<div class="container-fluid padding-top-30 padding-bottom-10">
@@ -53,80 +47,7 @@
 						<div class="col-sm-12">
 							<div class="panel panel-white no-radius">
 								<div class="panel-body">
-<<<<<<< HEAD
-									
-									<div class="row padding-left-30 padding-right-30 padding-bottom-30">
-										
-										
-										<div class="row border-bottom padding-top-20">
-											<div class=" col-xs-2 padding-bottom-10">
-												<img src="assets/images/avatar-1-big.jpg" class="img-radius">
-											</div>
-											<div class="col-xs-10">
-												<p><b>Beon Mas Saiful</b></p>
-												<p>Last seen Oct 26 at 12:23 AM</p>
-											</div>
-										</div>
 
-										<div class="row border-bottom padding-top-20">
-											<div class=" col-xs-2 padding-bottom-10">
-												<img src="assets/images/avatar-1-big.jpg" class="img-radius">
-											</div>
-											<div class="col-xs-10">
-												<p><b>Beon Mas Gilas</b></p>
-												<p>Last seen Oct 26 at 12:23 AM</p>
-											</div>
-										</div>
-
-										<div class="row border-bottom padding-top-20">
-											<div class=" col-xs-2 padding-bottom-10">
-												<img src="assets/images/avatar-1-big.jpg" class="img-radius">
-											</div>
-											<div class="col-xs-10">
-												<p><b>Beon Mas Tofa</b></p>
-												<p>Last seen Oct 26 at 12:23 AM</p>
-											</div>
-										</div>
-
-										<div class="row border-bottom padding-top-20">
-											<div class=" col-xs-2 padding-bottom-10">
-												<img src="assets/images/avatar-1-big.jpg" class="img-radius">
-											</div>
-											<div class="col-xs-10">
-												<p><b>Beon Mas Saiful</b></p>
-												<p>Last seen Oct 26 at 12:23 AM</p>
-											</div>
-										</div>
-
-										<div class="row border-bottom padding-top-20">
-											<div class=" col-xs-2 padding-bottom-10">
-												<img src="assets/images/avatar-1-big.jpg" class="img-radius">
-											</div>
-											<div class="col-xs-10">
-												<p><b>Beon Mas Gilas</b></p>
-												<p>Last seen Oct 26 at 12:23 AM</p>
-											</div>
-										</div>
-
-										<div class="row border-bottom padding-top-20">
-											<div class=" col-xs-2 padding-bottom-10">
-												<img src="assets/images/avatar-1-big.jpg" class="img-radius">
-											</div>
-											<div class="col-xs-10">
-												<p><b>Beon Mas Tofa</b></p>
-												<p>Last seen Oct 26 at 12:23 AM</p>
-											</div>
-										</div>
-										<div class="row">
-											<div class=" warna panel panel-white collapses margin-top-10" >
-												<div class="panel-heading">
-													<center><h4 class="panel-title text-primary">Load More...</h4></center>
-												</div>			
-											</div>
-										</div>
-
-
-=======
 										<div class="table-responsive padding-10">
 											<table class="table">
 												<tr>
@@ -285,7 +206,6 @@
 												</li>
 											</ul>
 										</div>
->>>>>>> 7314eb0fdba609d1264e568c19ed18d899bdd34d
 									</div>
 								</div>
 							</div>
@@ -305,11 +225,9 @@
 	<?php include 'include/settings-panel.php'; ?>
 	<!-- end: SETTINGS -->
 </div>
-<<<<<<< HEAD
-=======
 
 <?php include 'modal/modal-contact-list.php'; ?>
->>>>>>> 7314eb0fdba609d1264e568c19ed18d899bdd34d
+
 <!-- start: MAIN JAVASCRIPTS -->
 <?php include 'include/main-js.php'; ?>
 <!-- start: JavaScript Event Handlers for this page -->
